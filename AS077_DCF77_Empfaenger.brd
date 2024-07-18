@@ -47,13 +47,13 @@
 <layer number="36" name="bGlue" color="7" fill="5" visible="no" active="yes"/>
 <layer number="37" name="tTest" color="7" fill="1" visible="no" active="yes"/>
 <layer number="38" name="bTest" color="7" fill="1" visible="no" active="yes"/>
-<layer number="39" name="tKeepout" color="4" fill="11" visible="no" active="yes"/>
-<layer number="40" name="bKeepout" color="1" fill="11" visible="no" active="yes"/>
-<layer number="41" name="tRestrict" color="4" fill="10" visible="no" active="yes"/>
-<layer number="42" name="bRestrict" color="1" fill="10" visible="no" active="yes"/>
+<layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
+<layer number="40" name="bKeepout" color="1" fill="11" visible="yes" active="yes"/>
+<layer number="41" name="tRestrict" color="4" fill="10" visible="yes" active="yes"/>
+<layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
 <layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="yes"/>
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
-<layer number="45" name="Holes" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="45" name="Holes" color="7" fill="1" visible="no" active="yes"/>
 <layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
 <layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
 <layer number="48" name="Document" color="7" fill="1" visible="no" active="yes"/>
@@ -551,6 +551,22 @@
 <text x="80" y="91.44" size="3" layer="25" font="vector" ratio="15" align="center">Ferritantenne</text>
 <text x="142.24" y="27.94" size="3" layer="25" font="vector" ratio="15" align="center">Piezo-
 Element</text>
+<wire x1="129.81" y1="43.815" x2="126.365" y2="43.815" width="0.5" layer="22" style="longdash"/>
+<wire x1="126.365" y1="43.815" x2="125.73" y2="43.18" width="0.5" layer="22" style="longdash" curve="90"/>
+<wire x1="125.73" y1="43.18" x2="125.73" y2="38.1" width="0.5" layer="22" style="longdash"/>
+<wire x1="125.73" y1="38.1" x2="126.365" y2="37.465" width="0.5" layer="22" style="longdash" curve="90"/>
+<wire x1="126.365" y1="37.465" x2="129.81" y2="37.465" width="0.5" layer="22" style="longdash"/>
+<wire x1="129.81" y1="37.465" x2="130.81" y2="38.465" width="0.5" layer="22" style="longdash" curve="90"/>
+<wire x1="130.81" y1="38.465" x2="130.81" y2="42.815" width="0.5" layer="22" style="longdash"/>
+<wire x1="130.81" y1="42.815" x2="129.81" y2="43.815" width="0.5" layer="22" style="longdash" curve="90"/>
+<wire x1="123.19" y1="43.18" x2="125.73" y2="43.18" width="0.3" layer="22"/>
+<wire x1="123.19" y1="38.1" x2="125.73" y2="38.1" width="0.3" layer="22"/>
+<wire x1="129.54" y1="41.275" x2="128.27" y2="41.275" width="0.5" layer="22"/>
+<wire x1="128.27" y1="41.275" x2="127" y2="41.275" width="0.5" layer="22"/>
+<wire x1="129.54" y1="40.005" x2="128.27" y2="40.005" width="0.5" layer="22"/>
+<wire x1="128.27" y1="40.005" x2="127" y2="40.005" width="0.5" layer="22"/>
+<wire x1="128.27" y1="41.275" x2="128.27" y2="42.545" width="0.3" layer="22"/>
+<wire x1="128.27" y1="40.005" x2="128.27" y2="38.735" width="0.3" layer="22"/>
 </plain>
 <libraries>
 <library name="0027 DCF77-Empfänger">
@@ -2277,6 +2293,24 @@ grid 5.08 mm, diameter 10.5 mm</description>
 <vertex x="114.3" y="45.72"/>
 </polygon>
 <contactref element="R22" pad="1"/>
+</signal>
+<signal name="N$45">
+<contactref element="IC2" pad="6"/>
+<polygon width="0" layer="16" thermals="no">
+<vertex x="43.18" y="19.05"/>
+<vertex x="48.26" y="19.05"/>
+<vertex x="48.26" y="16.51"/>
+<vertex x="43.18" y="16.51"/>
+</polygon>
+</signal>
+<signal name="N$46">
+<contactref element="IC3" pad="5"/>
+<polygon width="0" layer="16" thermals="no">
+<vertex x="55.88" y="72.39"/>
+<vertex x="60.96" y="72.39"/>
+<vertex x="60.96" y="69.85"/>
+<vertex x="55.88" y="69.85"/>
+</polygon>
 </signal>
 </signals>
 <mfgpreviewcolors>

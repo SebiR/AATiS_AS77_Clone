@@ -2582,6 +2582,18 @@ DIN A3, landscape with location and doc. field</description>
 <wire x1="302.26" y1="109.22" x2="281.94" y2="109.22" width="0.1524" layer="91"/>
 </segment>
 </net>
+<net name="N$45" class="0">
+<segment>
+<pinref part="IC2" gate="A" pin="Q"/>
+<wire x1="152.4" y1="116.84" x2="154.94" y2="116.84" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$46" class="0">
+<segment>
+<pinref part="IC3" gate="A" pin="ON"/>
+<wire x1="218.44" y1="218.44" x2="218.44" y2="215.9" width="0.1524" layer="91"/>
+</segment>
+</net>
 </nets>
 </sheet>
 </sheets>
