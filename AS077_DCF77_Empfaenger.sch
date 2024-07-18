@@ -742,7 +742,7 @@ diameter 2.54 mm, horizontal, grid 10.16 mm</description>
 <wire x1="0" y1="10.16" x2="20.32" y2="10.16" width="0.3048" layer="94"/>
 <wire x1="20.32" y1="10.16" x2="20.32" y2="0" width="0.3048" layer="94"/>
 <wire x1="20.32" y1="0" x2="0" y2="0" width="0.3048" layer="94"/>
-<text x="10.16" y="5.08" size="3" layer="94" font="vector" ratio="12" align="center">9V Block</text>
+<text x="10.16" y="5.08" size="2.1844" layer="94" font="vector" ratio="12" align="center">9V Block</text>
 </symbol>
 </symbols>
 <devicesets>
@@ -1364,7 +1364,8 @@ DIN A3, landscape with location and doc. field</description>
 <text x="68.58" y="157.48" size="1.778" layer="97">etwa 220 Wdg. Kupferlackdraht</text>
 <text x="68.58" y="154.94" size="1.778" layer="97">Durchmesser 0.3mm</text>
 <text x="231.14" y="228.6" size="1.778" layer="97">Drahtbrücke bei 5V</text>
-<text x="30.48" y="35.56" size="2.54" layer="91">Ersatz AA112: AA143</text>
+<text x="30.48" y="35.56" size="2.54" layer="91">Ersatz AA112: AA143
+Piezo: RMP-34W</text>
 <text x="154.94" y="116.84" size="2.54" layer="91" align="center">x</text>
 <text x="218.44" y="218.44" size="2.54" layer="91" align="center">x</text>
 <text x="302.26" y="73.66" size="2.54" layer="91" align="center">"0"</text>
@@ -2604,6 +2605,10 @@ DIN A3, landscape with location and doc. field</description>
 </schematic>
 </drawing>
 <compatibility>
+<note version="6.3" minversion="6.2.2" severity="warning">
+Since Version 6.2.2 text objects can contain more than one line,
+which will not be processed correctly with this version.
+</note>
 <note version="8.2" severity="warning">
 Since Version 8.2, EAGLE supports online libraries. The ids
 of those online libraries will not be understood (or retained)
