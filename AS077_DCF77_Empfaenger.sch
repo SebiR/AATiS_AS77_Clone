@@ -1253,21 +1253,21 @@ DIN A3, landscape with location and doc. field</description>
 <part name="R6" library="0027 DCF77-Empfänger" deviceset="RCL_R-EU_" device="0207/5V" value="47k"/>
 <part name="R3" library="0027 DCF77-Empfänger" deviceset="RCL_R-EU_" device="0207/5V" value="2k2"/>
 <part name="C3" library="0027 DCF77-Empfänger" deviceset="RCL_C-TRIMM" device="808-7.5" value="90p"/>
-<part name="C4" library="0027 DCF77-Empfänger" deviceset="RCL_C-EU" device="075-032X103" value="1n2...2n2"/>
+<part name="C4" library="0027 DCF77-Empfänger" deviceset="RCL_C-EU" device="075-032X103" value="1n2..2n2*"/>
 <part name="C13" library="0027 DCF77-Empfänger" deviceset="RCL_C-EU" device="050-024X044" value="100n"/>
 <part name="C6" library="0027 DCF77-Empfänger" deviceset="RCL_C-EU" device="050-024X044" value="100n"/>
 <part name="C10" library="0027 DCF77-Empfänger" deviceset="RCL_C-EU" device="050-024X044" value="100n"/>
 <part name="C5" library="0027 DCF77-Empfänger" deviceset="RCL_C-EU" device="050-024X044" value="100n"/>
-<part name="Q1" library="0027 DCF77-Empfänger" deviceset="TRANSISTOR-FET_BF245" device="5.08" value="BF 244A"/>
+<part name="Q1" library="0027 DCF77-Empfänger" deviceset="TRANSISTOR-FET_BF245" device="5.08" value="BF244A"/>
 <part name="Q2" library="0027 DCF77-Empfänger" deviceset="TRANSISTOR-NPN_BC238" device="5.08" value="BC549C"/>
-<part name="Q3" library="0027 DCF77-Empfänger" deviceset="TRANSISTOR-NPN_BC238" device="5.08" value="BC549"/>
-<part name="Q4" library="0027 DCF77-Empfänger" deviceset="TRANSISTOR-NPN_BC238" device="5.08"/>
-<part name="D2" library="0027 DCF77-Empfänger" deviceset="DIODE_AA112" device=""/>
+<part name="Q3" library="0027 DCF77-Empfänger" deviceset="TRANSISTOR-NPN_BC238" device="5.08" value="BC549C"/>
+<part name="Q4" library="0027 DCF77-Empfänger" deviceset="TRANSISTOR-NPN_BC238" device="5.08" value="BC549C"/>
+<part name="D2" library="0027 DCF77-Empfänger" deviceset="DIODE_AA112" device="" value="AA112"/>
 <part name="C11" library="0027 DCF77-Empfänger" deviceset="RCL_C-EU" device="050-024X044" value="100n"/>
-<part name="D1" library="0027 DCF77-Empfänger" deviceset="DIODE_AA112" device=""/>
-<part name="C12" library="0027 DCF77-Empfänger" deviceset="RCL_C-EU" device="075-032X103" value="270n"/>
+<part name="D1" library="0027 DCF77-Empfänger" deviceset="DIODE_AA112" device="" value="AA112"/>
+<part name="C12" library="0027 DCF77-Empfänger" deviceset="RCL_C-EU" device="075-032X103" value="270n*"/>
 <part name="C7" library="0027 DCF77-Empfänger" deviceset="RCL_C-EU" device="050-024X044" value="10n"/>
-<part name="C15" library="0027 DCF77-Empfänger" deviceset="RCL_C-EU" device="075-032X103" value="270n"/>
+<part name="C15" library="0027 DCF77-Empfänger" deviceset="RCL_C-EU" device="075-032X103" value="270n*"/>
 <part name="J1" library="0027 DCF77-Empfänger" deviceset="JUMPER_J" device="5MM" value="Rückkopplung"/>
 <part name="PAD3" library="0027 DCF77-Empfänger" deviceset="WIREPAD_2.2/1.3" device="" value="ANT"/>
 <part name="PAD4" library="0027 DCF77-Empfänger" deviceset="WIREPAD_2.2/1.3" device="" value="ANT"/>
@@ -1276,10 +1276,10 @@ DIN A3, landscape with location and doc. field</description>
 <part name="R17" library="0027 DCF77-Empfänger" deviceset="RCL_R-EU_" device="0207/5V" value="22k"/>
 <part name="R18" library="0027 DCF77-Empfänger" deviceset="RCL_R-EU_" device="0207/5V" value="22k"/>
 <part name="C20" library="0027 DCF77-Empfänger" deviceset="RCL_CPOL-EU" device="E5-6" value="1µ"/>
-<part name="R19" library="0027 DCF77-Empfänger" deviceset="RCL_R-EU_" device="0207/5V" value="10k (evtl.)"/>
-<part name="R20" library="0027 DCF77-Empfänger" deviceset="RCL_R-EU_" device="0207/5V" value="1k (evtl.)"/>
+<part name="R19" library="0027 DCF77-Empfänger" deviceset="RCL_R-EU_" device="0207/5V" value="10k"/>
+<part name="R20" library="0027 DCF77-Empfänger" deviceset="RCL_R-EU_" device="0207/5V" value="1k"/>
 <part name="R21" library="0027 DCF77-Empfänger" deviceset="RCL_R-EU_" device="0207/5V" value="1k"/>
-<part name="LED1" library="0027 DCF77-Empfänger" deviceset="LED_LED" device="5MM"/>
+<part name="LED1" library="0027 DCF77-Empfänger" deviceset="LED_LED" device="5MM" value="rot"/>
 <part name="PAD13" library="0027 DCF77-Empfänger" deviceset="WIREPAD_2.2/1.3" device="" value="Comp."/>
 <part name="PAD14" library="0027 DCF77-Empfänger" deviceset="WIREPAD_2.2/1.3" device="" value="GND"/>
 <part name="PAD12" library="0027 DCF77-Empfänger" deviceset="WIREPAD_2.2/1.3" device="" value="VCC"/>
@@ -1304,34 +1304,34 @@ DIN A3, landscape with location and doc. field</description>
 <part name="PAD9" library="0027 DCF77-Empfänger" deviceset="WIREPAD_2.2/1.3" device="" value="D"/>
 <part name="PAD11" library="0027 DCF77-Empfänger" deviceset="WIREPAD_2.2/1.3" device="" value="G"/>
 <part name="PAD10" library="0027 DCF77-Empfänger" deviceset="WIREPAD_2.2/1.3" device="" value="H"/>
-<part name="R1" library="0027 DCF77-Empfänger" deviceset="RCL_R-EU_" device="0207/15"/>
-<part name="C2" library="0027 DCF77-Empfänger" deviceset="RCL_C-EU" device="075-032X103"/>
-<part name="C9" library="0027 DCF77-Empfänger" deviceset="RCL_C-EU" device="075-032X103"/>
-<part name="R13" library="0027 DCF77-Empfänger" deviceset="RCL_R-EU_" device="0207/5V"/>
-<part name="R14" library="0027 DCF77-Empfänger" deviceset="RCL_R-EU_" device="0207/5V"/>
-<part name="C16" library="0027 DCF77-Empfänger" deviceset="RCL_C-EU" device="050-024X044"/>
-<part name="C17" library="0027 DCF77-Empfänger" deviceset="RCL_C-EU" device="050-024X044"/>
+<part name="R1" library="0027 DCF77-Empfänger" deviceset="RCL_R-EU_" device="0207/15" value="39k"/>
+<part name="C2" library="0027 DCF77-Empfänger" deviceset="RCL_C-EU" device="075-032X103" value="270n*"/>
+<part name="C9" library="0027 DCF77-Empfänger" deviceset="RCL_C-EU" device="075-032X103" value="150n*"/>
+<part name="R13" library="0027 DCF77-Empfänger" deviceset="RCL_R-EU_" device="0207/5V" value="100k"/>
+<part name="R14" library="0027 DCF77-Empfänger" deviceset="RCL_R-EU_" device="0207/5V" value="56k"/>
+<part name="C16" library="0027 DCF77-Empfänger" deviceset="RCL_C-EU" device="050-024X044" value="22n"/>
+<part name="C17" library="0027 DCF77-Empfänger" deviceset="RCL_C-EU" device="050-024X044" value="22n"/>
 <part name="GND7" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="R22" library="0027 DCF77-Empfänger" deviceset="RCL_R-EU_" device="0207/5V"/>
+<part name="R22" library="0027 DCF77-Empfänger" deviceset="RCL_R-EU_" device="0207/5V" value="1k"/>
 <part name="Q7" library="0027 DCF77-Empfänger" deviceset="TRANSISTOR-NPN_BC238" device="2.54" value="BC549C"/>
 <part name="Q5" library="0027 DCF77-Empfänger" deviceset="TRANSISTOR-NPN_BC238" device="2.54" value="BC549C"/>
 <part name="R7" library="0027 DCF77-Empfänger" deviceset="RCL_R-EU_" device="0207/15" value="1M"/>
 <part name="P+10" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="VCC" device=""/>
 <part name="GND8" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="C18" library="0027 DCF77-Empfänger" deviceset="RCL_C-EU" device="075-032X103"/>
+<part name="C18" library="0027 DCF77-Empfänger" deviceset="RCL_C-EU" device="075-032X103" value="470n*"/>
 <part name="R15" library="0027 DCF77-Empfänger" deviceset="RCL_R-EU_" device="0207/15" value="1M"/>
 <part name="GND9" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND10" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND11" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="R23" library="0027 DCF77-Empfänger" deviceset="RCL_R-EU_" device="0207/10"/>
-<part name="Q6" library="0027 DCF77-Empfänger" deviceset="TRANSISTOR-PNP_BC214" device="5.08"/>
-<part name="LED2" library="0027 DCF77-Empfänger" deviceset="LED_LED" device="5MM" value="&quot;1&quot;"/>
-<part name="LED3" library="0027 DCF77-Empfänger" deviceset="LED_LED" device="5MM" value="&quot;0&quot;"/>
+<part name="R23" library="0027 DCF77-Empfänger" deviceset="RCL_R-EU_" device="0207/10" value="1k"/>
+<part name="Q6" library="0027 DCF77-Empfänger" deviceset="TRANSISTOR-PNP_BC214" device="5.08" value="BC559C"/>
+<part name="LED2" library="0027 DCF77-Empfänger" deviceset="LED_LED" device="5MM" value="rot"/>
+<part name="LED3" library="0027 DCF77-Empfänger" deviceset="LED_LED" device="5MM" value="grün"/>
 <part name="P+5" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="VCC" device=""/>
 <part name="PAD8" library="0027 DCF77-Empfänger" deviceset="WIREPAD_2.2/1.3" device="" value="C"/>
-<part name="C8" library="0027 DCF77-Empfänger" deviceset="RCL_C-EU" device="050-024X044"/>
-<part name="C14" library="0027 DCF77-Empfänger" deviceset="RCL_CPOL-EU" device="E5-10.5"/>
-<part name="C1" library="0027 DCF77-Empfänger" deviceset="RCL_CPOL-EU" device="E5-10.5"/>
+<part name="C8" library="0027 DCF77-Empfänger" deviceset="RCL_C-EU" device="050-024X044" value="100n"/>
+<part name="C14" library="0027 DCF77-Empfänger" deviceset="RCL_CPOL-EU" device="E5-10.5" value="470u"/>
+<part name="C1" library="0027 DCF77-Empfänger" deviceset="RCL_CPOL-EU" device="E5-10.5" value="470u"/>
 <part name="GND12" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="PAD1" library="0027 DCF77-Empfänger" deviceset="WIREPAD_2.2/1.3" device="" value="BAT+"/>
 <part name="PAD2" library="0027 DCF77-Empfänger" deviceset="WIREPAD_2.2/1.3" device="" value="BAT-"/>
@@ -1365,6 +1365,10 @@ DIN A3, landscape with location and doc. field</description>
 <text x="68.58" y="154.94" size="1.778" layer="97">Durchmesser 0.3mm</text>
 <text x="231.14" y="228.6" size="1.778" layer="97">Drahtbrücke bei 5V</text>
 <text x="30.48" y="35.56" size="2.54" layer="91">Ersatz AA112: AA143</text>
+<text x="154.94" y="116.84" size="2.54" layer="91" align="center">x</text>
+<text x="218.44" y="218.44" size="2.54" layer="91" align="center">x</text>
+<text x="302.26" y="73.66" size="2.54" layer="91" align="center">"0"</text>
+<text x="325.12" y="73.66" size="2.54" layer="91" align="center">"1"</text>
 </plain>
 <instances>
 <instance part="IC3" gate="A" x="218.44" y="208.28" smashed="yes">
@@ -1504,9 +1508,9 @@ DIN A3, landscape with location and doc. field</description>
 <attribute name="NAME" x="244.8814" y="196.85" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="249.682" y="196.85" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="R18" gate="G$1" x="246.38" y="185.42" smashed="yes" rot="R270">
-<attribute name="NAME" x="247.8786" y="189.23" size="1.778" layer="95" rot="R270"/>
-<attribute name="VALUE" x="243.078" y="189.23" size="1.778" layer="96" rot="R270"/>
+<instance part="R18" gate="G$1" x="246.38" y="185.42" smashed="yes" rot="R90">
+<attribute name="NAME" x="244.8814" y="181.61" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="249.682" y="181.61" size="1.778" layer="96" rot="R90"/>
 </instance>
 <instance part="C20" gate="G$1" x="236.22" y="185.42" smashed="yes">
 <attribute name="NAME" x="237.363" y="185.9026" size="1.778" layer="95"/>
@@ -1682,9 +1686,9 @@ DIN A3, landscape with location and doc. field</description>
 <instance part="GND7" gate="1" x="198.12" y="96.52" smashed="yes">
 <attribute name="VALUE" x="195.58" y="93.98" size="1.778" layer="96"/>
 </instance>
-<instance part="R22" gate="G$1" x="287.02" y="109.22" smashed="yes">
-<attribute name="NAME" x="283.21" y="110.7186" size="1.778" layer="95"/>
-<attribute name="VALUE" x="283.21" y="105.918" size="1.778" layer="96"/>
+<instance part="R22" gate="G$1" x="287.02" y="109.22" smashed="yes" rot="R180">
+<attribute name="NAME" x="290.83" y="107.7214" size="1.778" layer="95" rot="R180"/>
+<attribute name="VALUE" x="290.83" y="112.522" size="1.778" layer="96" rot="R180"/>
 </instance>
 <instance part="Q7" gate="G$1" x="325.12" y="96.52" smashed="yes">
 <attribute name="NAME" x="314.96" y="104.14" size="1.778" layer="95"/>
@@ -1784,9 +1788,9 @@ DIN A3, landscape with location and doc. field</description>
 <instance part="GND14" gate="1" x="299.72" y="124.46" smashed="yes" rot="R180">
 <attribute name="VALUE" x="302.26" y="127" size="1.778" layer="96" rot="R180"/>
 </instance>
-<instance part="PAD6" gate="1" x="78.74" y="63.5" smashed="yes" rot="R180">
-<attribute name="NAME" x="79.883" y="61.6458" size="1.778" layer="95" rot="R180"/>
-<attribute name="VALUE" x="79.883" y="66.802" size="1.778" layer="96" rot="R180"/>
+<instance part="PAD6" gate="1" x="83.82" y="63.5" smashed="yes" rot="R180">
+<attribute name="NAME" x="84.963" y="61.6458" size="1.778" layer="95" rot="R180"/>
+<attribute name="VALUE" x="84.963" y="66.802" size="1.778" layer="96" rot="R180"/>
 </instance>
 <instance part="FRAME1" gate="G$1" x="0" y="0" smashed="yes">
 <attribute name="DRAWING_NAME" x="344.17" y="15.24" size="2.54" layer="94"/>
@@ -2033,7 +2037,7 @@ DIN A3, landscape with location and doc. field</description>
 <pinref part="R18" gate="G$1" pin="2"/>
 <wire x1="246.38" y1="195.58" x2="246.38" y2="193.04" width="0.1524" layer="91"/>
 <pinref part="C20" gate="G$1" pin="+"/>
-<wire x1="246.38" y1="193.04" x2="246.38" y2="180.34" width="0.1524" layer="91"/>
+<wire x1="246.38" y1="193.04" x2="246.38" y2="190.5" width="0.1524" layer="91"/>
 <wire x1="236.22" y1="187.96" x2="236.22" y2="193.04" width="0.1524" layer="91"/>
 <wire x1="236.22" y1="193.04" x2="246.38" y2="193.04" width="0.1524" layer="91"/>
 <junction x="246.38" y="193.04"/>
@@ -2042,7 +2046,7 @@ DIN A3, landscape with location and doc. field</description>
 <net name="N$22" class="0">
 <segment>
 <pinref part="R18" gate="G$1" pin="1"/>
-<wire x1="246.38" y1="190.5" x2="246.38" y2="177.8" width="0.1524" layer="91"/>
+<wire x1="246.38" y1="180.34" x2="246.38" y2="177.8" width="0.1524" layer="91"/>
 <wire x1="246.38" y1="177.8" x2="256.54" y2="177.8" width="0.1524" layer="91"/>
 <pinref part="Q3" gate="G$1" pin="B"/>
 </segment>
@@ -2230,7 +2234,7 @@ DIN A3, landscape with location and doc. field</description>
 <wire x1="71.12" y1="66.04" x2="71.12" y2="63.5" width="0.1524" layer="91"/>
 <junction x="71.12" y="63.5"/>
 <pinref part="PAD6" gate="1" pin="P"/>
-<wire x1="76.2" y1="63.5" x2="71.12" y2="63.5" width="0.1524" layer="91"/>
+<wire x1="81.28" y1="63.5" x2="71.12" y2="63.5" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="PAD15" gate="1" pin="P"/>
@@ -2572,14 +2576,14 @@ DIN A3, landscape with location and doc. field</description>
 <segment>
 <pinref part="IC4" gate="C" pin="O"/>
 <pinref part="R22" gate="G$1" pin="2"/>
-<wire x1="292.1" y1="109.22" x2="276.86" y2="109.22" width="0.1524" layer="91"/>
+<wire x1="281.94" y1="109.22" x2="276.86" y2="109.22" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$17" class="0">
 <segment>
 <pinref part="PAD16" gate="1" pin="P"/>
 <pinref part="R22" gate="G$1" pin="1"/>
-<wire x1="302.26" y1="109.22" x2="281.94" y2="109.22" width="0.1524" layer="91"/>
+<wire x1="302.26" y1="109.22" x2="292.1" y2="109.22" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$45" class="0">
