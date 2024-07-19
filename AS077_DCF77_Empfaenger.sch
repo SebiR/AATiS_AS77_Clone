@@ -7,7 +7,7 @@
 <setting keepoldvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -86,60 +86,8 @@
 </layers>
 <schematic xreflabel="%F%N/%S.%C%R" xrefpart="/%S.%C%R">
 <libraries>
-<library name="supply1" urn="urn:adsk.eagle:library:371">
-<description>&lt;b&gt;Supply Symbols&lt;/b&gt;&lt;p&gt;
- GND, VCC, 0V, +5V, -5V, etc.&lt;p&gt;
- Please keep in mind, that these devices are necessary for the
- automatic wiring of the supply signals.&lt;p&gt;
- The pin name defined in the symbol is identical to the net which is to be wired automatically.&lt;p&gt;
- In this library the device names are the same as the pin names of the symbols, therefore the correct signal names appear next to the supply symbols in the schematic.&lt;p&gt;
- &lt;author&gt;Created by librarian@cadsoft.de&lt;/author&gt;</description>
-<packages>
-</packages>
-<symbols>
-<symbol name="GND" urn="urn:adsk.eagle:symbol:26925/1" library_version="1">
-<wire x1="-1.905" y1="0" x2="1.905" y2="0" width="0.254" layer="94"/>
-<text x="-2.54" y="-2.54" size="1.778" layer="96">&gt;VALUE</text>
-<pin name="GND" x="0" y="2.54" visible="off" length="short" direction="sup" rot="R270"/>
-</symbol>
-<symbol name="VCC" urn="urn:adsk.eagle:symbol:26928/1" library_version="1">
-<wire x1="1.27" y1="-1.905" x2="0" y2="0" width="0.254" layer="94"/>
-<wire x1="0" y1="0" x2="-1.27" y2="-1.905" width="0.254" layer="94"/>
-<text x="-2.54" y="-2.54" size="1.778" layer="96" rot="R90">&gt;VALUE</text>
-<pin name="VCC" x="0" y="-2.54" visible="off" length="short" direction="sup" rot="R90"/>
-</symbol>
-</symbols>
-<devicesets>
-<deviceset name="GND" urn="urn:adsk.eagle:component:26954/1" prefix="GND" library_version="1">
-<description>&lt;b&gt;SUPPLY SYMBOL&lt;/b&gt;</description>
-<gates>
-<gate name="1" symbol="GND" x="0" y="0"/>
-</gates>
-<devices>
-<device name="">
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="VCC" urn="urn:adsk.eagle:component:26957/1" prefix="P+" library_version="1">
-<description>&lt;b&gt;SUPPLY SYMBOL&lt;/b&gt;</description>
-<gates>
-<gate name="VCC" symbol="VCC" x="0" y="0"/>
-</gates>
-<devices>
-<device name="">
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-</devicesets>
-</library>
-<library name="0027 DCF77-Empfänger">
-<description>Generated from &lt;b&gt;0027 DCF77-Empfänger.sch&lt;/b&gt;&lt;p&gt;
+<library name="AS077_DCF77_Empfaenger">
+<description>Generated from &lt;b&gt;AS077_DCF77_Empfaenger.sch&lt;/b&gt;&lt;p&gt;
 by exp-lbrs.ulp</description>
 <packages>
 <package name="DIL16">
@@ -759,6 +707,43 @@ diameter 2.54 mm, horizontal, grid 10.16 mm</description>
 <text x="-2.54" y="2.286" size="1.778" layer="95">&gt;NAME</text>
 <text x="-2.54" y="-3.81" size="1.778" layer="96">&gt;VALUE</text>
 </symbol>
+<symbol name="SUPPLY1_GND">
+<wire x1="-1.905" y1="0" x2="1.905" y2="0" width="0.254" layer="94"/>
+<pin name="GND" x="0" y="2.54" visible="off" length="short" direction="sup" rot="R270"/>
+<text x="-2.54" y="-2.54" size="1.778" layer="96">&gt;VALUE</text>
+</symbol>
+<symbol name="SUPPLY1_VCC">
+<wire x1="1.27" y1="-1.905" x2="0" y2="0" width="0.254" layer="94"/>
+<wire x1="0" y1="0" x2="-1.27" y2="-1.905" width="0.254" layer="94"/>
+<pin name="VCC" x="0" y="-2.54" visible="off" length="short" direction="sup" rot="R90"/>
+<text x="-2.54" y="-2.54" size="1.778" layer="96" rot="R90">&gt;VALUE</text>
+</symbol>
+<symbol name="A3L-LOC">
+<wire x1="288.29" y1="3.81" x2="342.265" y2="3.81" width="0.1016" layer="94"/>
+<wire x1="342.265" y1="3.81" x2="373.38" y2="3.81" width="0.1016" layer="94"/>
+<wire x1="373.38" y1="3.81" x2="383.54" y2="3.81" width="0.1016" layer="94"/>
+<wire x1="383.54" y1="3.81" x2="383.54" y2="8.89" width="0.1016" layer="94"/>
+<wire x1="383.54" y1="8.89" x2="383.54" y2="13.97" width="0.1016" layer="94"/>
+<wire x1="383.54" y1="13.97" x2="383.54" y2="19.05" width="0.1016" layer="94"/>
+<wire x1="383.54" y1="19.05" x2="383.54" y2="24.13" width="0.1016" layer="94"/>
+<wire x1="288.29" y1="3.81" x2="288.29" y2="24.13" width="0.1016" layer="94"/>
+<wire x1="288.29" y1="24.13" x2="342.265" y2="24.13" width="0.1016" layer="94"/>
+<wire x1="342.265" y1="24.13" x2="383.54" y2="24.13" width="0.1016" layer="94"/>
+<wire x1="373.38" y1="3.81" x2="373.38" y2="8.89" width="0.1016" layer="94"/>
+<wire x1="373.38" y1="8.89" x2="383.54" y2="8.89" width="0.1016" layer="94"/>
+<wire x1="373.38" y1="8.89" x2="342.265" y2="8.89" width="0.1016" layer="94"/>
+<wire x1="342.265" y1="8.89" x2="342.265" y2="3.81" width="0.1016" layer="94"/>
+<wire x1="342.265" y1="8.89" x2="342.265" y2="13.97" width="0.1016" layer="94"/>
+<wire x1="342.265" y1="13.97" x2="383.54" y2="13.97" width="0.1016" layer="94"/>
+<wire x1="342.265" y1="13.97" x2="342.265" y2="19.05" width="0.1016" layer="94"/>
+<wire x1="342.265" y1="19.05" x2="383.54" y2="19.05" width="0.1016" layer="94"/>
+<wire x1="342.265" y1="19.05" x2="342.265" y2="24.13" width="0.1016" layer="94"/>
+<text x="344.17" y="15.24" size="2.54" layer="94">&gt;DRAWING_NAME</text>
+<text x="344.17" y="10.16" size="2.286" layer="94">&gt;LAST_DATE_TIME</text>
+<text x="357.505" y="5.08" size="2.54" layer="94">&gt;SHEET</text>
+<text x="343.916" y="4.953" size="2.54" layer="94">Sheet:</text>
+<frame x1="0" y1="0" x2="387.35" y2="260.35" columns="8" rows="5" layer="94"/>
+</symbol>
 </symbols>
 <devicesets>
 <deviceset name="45XX_4538" prefix="IC">
@@ -1205,42 +1190,33 @@ germanium</description>
 </device>
 </devices>
 </deviceset>
-</devicesets>
-</library>
-<library name="frames" urn="urn:adsk.eagle:library:229">
-<description>&lt;b&gt;Frames for Sheet and Layout&lt;/b&gt;</description>
-<packages>
-</packages>
-<symbols>
-<symbol name="A3L-LOC" urn="urn:adsk.eagle:symbol:13881/1" library_version="1">
-<wire x1="288.29" y1="3.81" x2="342.265" y2="3.81" width="0.1016" layer="94"/>
-<wire x1="342.265" y1="3.81" x2="373.38" y2="3.81" width="0.1016" layer="94"/>
-<wire x1="373.38" y1="3.81" x2="383.54" y2="3.81" width="0.1016" layer="94"/>
-<wire x1="383.54" y1="3.81" x2="383.54" y2="8.89" width="0.1016" layer="94"/>
-<wire x1="383.54" y1="8.89" x2="383.54" y2="13.97" width="0.1016" layer="94"/>
-<wire x1="383.54" y1="13.97" x2="383.54" y2="19.05" width="0.1016" layer="94"/>
-<wire x1="383.54" y1="19.05" x2="383.54" y2="24.13" width="0.1016" layer="94"/>
-<wire x1="288.29" y1="3.81" x2="288.29" y2="24.13" width="0.1016" layer="94"/>
-<wire x1="288.29" y1="24.13" x2="342.265" y2="24.13" width="0.1016" layer="94"/>
-<wire x1="342.265" y1="24.13" x2="383.54" y2="24.13" width="0.1016" layer="94"/>
-<wire x1="373.38" y1="3.81" x2="373.38" y2="8.89" width="0.1016" layer="94"/>
-<wire x1="373.38" y1="8.89" x2="383.54" y2="8.89" width="0.1016" layer="94"/>
-<wire x1="373.38" y1="8.89" x2="342.265" y2="8.89" width="0.1016" layer="94"/>
-<wire x1="342.265" y1="8.89" x2="342.265" y2="3.81" width="0.1016" layer="94"/>
-<wire x1="342.265" y1="8.89" x2="342.265" y2="13.97" width="0.1016" layer="94"/>
-<wire x1="342.265" y1="13.97" x2="383.54" y2="13.97" width="0.1016" layer="94"/>
-<wire x1="342.265" y1="13.97" x2="342.265" y2="19.05" width="0.1016" layer="94"/>
-<wire x1="342.265" y1="19.05" x2="383.54" y2="19.05" width="0.1016" layer="94"/>
-<wire x1="342.265" y1="19.05" x2="342.265" y2="24.13" width="0.1016" layer="94"/>
-<text x="344.17" y="15.24" size="2.54" layer="94">&gt;DRAWING_NAME</text>
-<text x="344.17" y="10.16" size="2.286" layer="94">&gt;LAST_DATE_TIME</text>
-<text x="357.505" y="5.08" size="2.54" layer="94">&gt;SHEET</text>
-<text x="343.916" y="4.953" size="2.54" layer="94">Sheet:</text>
-<frame x1="0" y1="0" x2="387.35" y2="260.35" columns="8" rows="5" layer="94"/>
-</symbol>
-</symbols>
-<devicesets>
-<deviceset name="A3L-LOC" urn="urn:adsk.eagle:component:13942/1" prefix="FRAME" uservalue="yes" library_version="1">
+<deviceset name="GND" prefix="GND">
+<description>&lt;b&gt;SUPPLY SYMBOL&lt;/b&gt;</description>
+<gates>
+<gate name="1" symbol="SUPPLY1_GND" x="0" y="0"/>
+</gates>
+<devices>
+<device name="">
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="VCC" prefix="P+">
+<description>&lt;b&gt;SUPPLY SYMBOL&lt;/b&gt;</description>
+<gates>
+<gate name="VCC" symbol="SUPPLY1_VCC" x="0" y="0"/>
+</gates>
+<devices>
+<device name="">
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="A3L-LOC" prefix="FRAME" uservalue="yes">
 <description>&lt;b&gt;FRAME&lt;/b&gt;&lt;p&gt;
 DIN A3, landscape with location and doc. field</description>
 <gates>
@@ -1266,111 +1242,111 @@ DIN A3, landscape with location and doc. field</description>
 </class>
 </classes>
 <parts>
-<part name="IC1" library="0027 DCF77-Empfänger" deviceset="CA3130" device="N" value="CA3130E"/>
-<part name="J2" library="0027 DCF77-Empfänger" deviceset="JUMPER_J" device="5MM" value="JUMPER_J5MM"/>
-<part name="J3" library="0027 DCF77-Empfänger" deviceset="JUMPER_J" device="5MM" value="JUMPER_J5MM"/>
-<part name="R6" library="0027 DCF77-Empfänger" deviceset="RCL_R-EU_" device="0207/5V" value="56k"/>
-<part name="R16" library="0027 DCF77-Empfänger" deviceset="RCL_R-EU_" device="0207/5V" value="220k"/>
-<part name="R7" library="0027 DCF77-Empfänger" deviceset="RCL_R-EU_" device="0207/5V" value="3M9"/>
-<part name="R1" library="0027 DCF77-Empfänger" deviceset="RCL_R-EU_" device="0207/5V" value="1k"/>
-<part name="R3" library="0027 DCF77-Empfänger" deviceset="RCL_R-EU_" device="0207/15" value="3k9"/>
-<part name="R4" library="0027 DCF77-Empfänger" deviceset="RCL_R-EU_" device="0207/5V" value="100k"/>
-<part name="R5" library="0027 DCF77-Empfänger" deviceset="RCL_R-EU_" device="0207/5V" value="2k2"/>
-<part name="R15" library="0027 DCF77-Empfänger" deviceset="RCL_R-EU_" device="0207/5V" value="1k"/>
-<part name="R14" library="0027 DCF77-Empfänger" deviceset="RCL_R-EU_" device="0207/5V" value="47k"/>
-<part name="R13" library="0027 DCF77-Empfänger" deviceset="RCL_R-EU_" device="0207/5V" value="2k2"/>
-<part name="C8" library="0027 DCF77-Empfänger" deviceset="RCL_C-TRIMM" device="808-7.5" value="90p"/>
-<part name="C7" library="0027 DCF77-Empfänger" deviceset="RCL_C-EU" device="075-032X103" value="1n2..2n2*"/>
-<part name="C2" library="0027 DCF77-Empfänger" deviceset="RCL_C-EU" device="050-024X044" value="100n"/>
-<part name="C9" library="0027 DCF77-Empfänger" deviceset="RCL_C-EU" device="050-024X044" value="100n"/>
-<part name="C10" library="0027 DCF77-Empfänger" deviceset="RCL_C-EU" device="050-024X044" value="100n"/>
-<part name="C1" library="0027 DCF77-Empfänger" deviceset="RCL_C-EU" device="050-024X044" value="100n"/>
-<part name="T2" library="0027 DCF77-Empfänger" deviceset="BF244A" device="5.08" value="BF244A"/>
-<part name="T3" library="0027 DCF77-Empfänger" deviceset="BC549C" device="5.08" value="BC549C"/>
-<part name="T4" library="0027 DCF77-Empfänger" deviceset="BC549C" device="5.08" value="BC549C"/>
-<part name="T1" library="0027 DCF77-Empfänger" deviceset="BC549C" device="5.08" value="BC549C"/>
-<part name="D1" library="0027 DCF77-Empfänger" deviceset="DIODE_AA112" device="" value="AA112"/>
-<part name="C5" library="0027 DCF77-Empfänger" deviceset="RCL_C-EU" device="050-024X044" value="100n"/>
-<part name="D2" library="0027 DCF77-Empfänger" deviceset="DIODE_AA112" device="" value="AA112"/>
-<part name="C11" library="0027 DCF77-Empfänger" deviceset="RCL_C-EU" device="075-032X103" value="270n*"/>
-<part name="C4" library="0027 DCF77-Empfänger" deviceset="RCL_C-EU" device="050-024X044" value="10n"/>
-<part name="C13" library="0027 DCF77-Empfänger" deviceset="RCL_C-EU" device="075-032X103" value="270n*"/>
-<part name="J1" library="0027 DCF77-Empfänger" deviceset="JUMPER_J" device="5MM" value="Rückkopplung"/>
-<part name="PAD2" library="0027 DCF77-Empfänger" deviceset="WIREPAD_2.2/1.3" device="" value="ANT"/>
-<part name="PAD4" library="0027 DCF77-Empfänger" deviceset="WIREPAD_2.2/1.3" device="" value="ANT"/>
-<part name="GND1" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="C6" library="0027 DCF77-Empfänger" deviceset="RCL_C-EU" device="050-024X044" value="150p"/>
-<part name="R8" library="0027 DCF77-Empfänger" deviceset="RCL_R-EU_" device="0207/5V" value="22k"/>
-<part name="R12" library="0027 DCF77-Empfänger" deviceset="RCL_R-EU_" device="0207/5V" value="22k"/>
-<part name="C12" library="0027 DCF77-Empfänger" deviceset="RCL_CPOL-EU" device="E5-6" value="1µ"/>
-<part name="R9" library="0027 DCF77-Empfänger" deviceset="RCL_R-EU_" device="0207/5V" value="10k"/>
-<part name="R11" library="0027 DCF77-Empfänger" deviceset="RCL_R-EU_" device="0207/5V" value="1k"/>
-<part name="R10" library="0027 DCF77-Empfänger" deviceset="RCL_R-EU_" device="0207/5V" value="1k"/>
-<part name="LED1" library="0027 DCF77-Empfänger" deviceset="LED_LED" device="5MM" value="rot"/>
-<part name="PAD3" library="0027 DCF77-Empfänger" deviceset="WIREPAD_2.2/1.3" device="" value="Comp."/>
-<part name="PAD5" library="0027 DCF77-Empfänger" deviceset="WIREPAD_2.2/1.3" device="" value="GND"/>
-<part name="PAD1" library="0027 DCF77-Empfänger" deviceset="WIREPAD_2.2/1.3" device="" value="VCC"/>
-<part name="GND2" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="R2" library="0027 DCF77-Empfänger" deviceset="RCL_R-EU_" device="0207/5V" value="2k2"/>
-<part name="GND3" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="IC3" library="0027 DCF77-Empfänger" deviceset="45XX_4538" device="N" value="4538N"/>
-<part name="IC2" library="0027 DCF77-Empfänger" deviceset="40XX_4093" device="N" value="4093N"/>
-<part name="IC4" library="0027 DCF77-Empfänger" deviceset="40XX_4093" device="N" value="4093N"/>
-<part name="P+2" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="VCC" device=""/>
-<part name="P+3" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="VCC" device=""/>
-<part name="P+4" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="VCC" device=""/>
-<part name="P+7" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="VCC" device=""/>
-<part name="P+8" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="VCC" device=""/>
-<part name="GND4" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="GND5" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="GND6" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="PAD6" library="0027 DCF77-Empfänger" deviceset="WIREPAD_2.2/1.3" device="" value="A"/>
-<part name="PAD7" library="0027 DCF77-Empfänger" deviceset="WIREPAD_2.2/1.3" device="" value="B"/>
-<part name="PAD12" library="0027 DCF77-Empfänger" deviceset="WIREPAD_2.2/1.3" device="" value="F"/>
-<part name="PAD13" library="0027 DCF77-Empfänger" deviceset="WIREPAD_2.2/1.3" device="" value="E"/>
-<part name="PAD16" library="0027 DCF77-Empfänger" deviceset="WIREPAD_2.2/1.3" device="" value="D"/>
-<part name="PAD18" library="0027 DCF77-Empfänger" deviceset="WIREPAD_2.2/1.3" device="" value="G"/>
-<part name="PAD17" library="0027 DCF77-Empfänger" deviceset="WIREPAD_2.2/1.3" device="" value="H"/>
-<part name="R18" library="0027 DCF77-Empfänger" deviceset="RCL_R-EU_" device="0207/15" value="39k"/>
-<part name="C15" library="0027 DCF77-Empfänger" deviceset="RCL_C-EU" device="075-032X103" value="270n*"/>
-<part name="C14" library="0027 DCF77-Empfänger" deviceset="RCL_C-EU" device="075-032X103" value="150n*"/>
-<part name="R19" library="0027 DCF77-Empfänger" deviceset="RCL_R-EU_" device="0207/5V" value="100k"/>
-<part name="R21" library="0027 DCF77-Empfänger" deviceset="RCL_R-EU_" device="0207/5V" value="56k"/>
-<part name="C16" library="0027 DCF77-Empfänger" deviceset="RCL_C-EU" device="050-024X044" value="22n"/>
-<part name="C17" library="0027 DCF77-Empfänger" deviceset="RCL_C-EU" device="050-024X044" value="22n"/>
-<part name="GND7" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="R20" library="0027 DCF77-Empfänger" deviceset="RCL_R-EU_" device="0207/5V" value="1k"/>
-<part name="T5" library="0027 DCF77-Empfänger" deviceset="BC549C" device="2.54" value="BC549C"/>
-<part name="T6" library="0027 DCF77-Empfänger" deviceset="BC549C" device="2.54" value="BC549C"/>
-<part name="R17" library="0027 DCF77-Empfänger" deviceset="RCL_R-EU_" device="0207/15" value="1M"/>
-<part name="P+10" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="VCC" device=""/>
-<part name="GND8" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="C20" library="0027 DCF77-Empfänger" deviceset="RCL_C-EU" device="075-032X103" value="470n*"/>
-<part name="R22" library="0027 DCF77-Empfänger" deviceset="RCL_R-EU_" device="0207/15" value="1M"/>
-<part name="GND9" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="GND10" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="GND11" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="R23" library="0027 DCF77-Empfänger" deviceset="RCL_R-EU_" device="0207/10" value="1k"/>
-<part name="T7" library="0027 DCF77-Empfänger" deviceset="BC559C" device="5.08" value="BC559C"/>
-<part name="LED2" library="0027 DCF77-Empfänger" deviceset="LED_LED" device="5MM" value="rot"/>
-<part name="LED3" library="0027 DCF77-Empfänger" deviceset="LED_LED" device="5MM" value="grün"/>
-<part name="P+5" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="VCC" device=""/>
-<part name="PAD8" library="0027 DCF77-Empfänger" deviceset="WIREPAD_2.2/1.3" device="" value="C"/>
-<part name="C19" library="0027 DCF77-Empfänger" deviceset="RCL_C-EU" device="050-024X044" value="100n"/>
-<part name="C3" library="0027 DCF77-Empfänger" deviceset="RCL_CPOL-EU" device="E5-10.5" value="470u"/>
-<part name="C18" library="0027 DCF77-Empfänger" deviceset="RCL_CPOL-EU" device="E5-10.5" value="470u"/>
-<part name="GND12" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="PAD11" library="0027 DCF77-Empfänger" deviceset="WIREPAD_2.2/1.3" device="" value="BAT+"/>
-<part name="PAD14" library="0027 DCF77-Empfänger" deviceset="WIREPAD_2.2/1.3" device="" value="BAT-"/>
-<part name="P+1" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="VCC" device=""/>
-<part name="GND13" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="PAD10" library="0027 DCF77-Empfänger" deviceset="WIREPAD_2.2/1.3" device="" value="BUZ+"/>
-<part name="PAD9" library="0027 DCF77-Empfänger" deviceset="WIREPAD_2.2/1.3" device="" value="BUZ-"/>
-<part name="GND14" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="PAD15" library="0027 DCF77-Empfänger" deviceset="WIREPAD_2.2/1.3" device="" value="GND"/>
-<part name="FRAME1" library="frames" library_urn="urn:adsk.eagle:library:229" deviceset="A3L-LOC" device=""/>
-<part name="U$1" library="0027 DCF77-Empfänger" deviceset="9V_SILKSCREEN" device=""/>
-<part name="Q1" library="0027 DCF77-Empfänger" deviceset="34MM_PIEZO" device=""/>
+<part name="IC1" library="AS077_DCF77_Empfaenger" deviceset="CA3130" device="N" value="CA3130E"/>
+<part name="J2" library="AS077_DCF77_Empfaenger" deviceset="JUMPER_J" device="5MM" value="JUMPER_J5MM"/>
+<part name="J3" library="AS077_DCF77_Empfaenger" deviceset="JUMPER_J" device="5MM" value="JUMPER_J5MM"/>
+<part name="R6" library="AS077_DCF77_Empfaenger" deviceset="RCL_R-EU_" device="0207/5V" value="56k"/>
+<part name="R16" library="AS077_DCF77_Empfaenger" deviceset="RCL_R-EU_" device="0207/5V" value="220k"/>
+<part name="R7" library="AS077_DCF77_Empfaenger" deviceset="RCL_R-EU_" device="0207/5V" value="3M9"/>
+<part name="R1" library="AS077_DCF77_Empfaenger" deviceset="RCL_R-EU_" device="0207/5V" value="1k"/>
+<part name="R3" library="AS077_DCF77_Empfaenger" deviceset="RCL_R-EU_" device="0207/15" value="3k9"/>
+<part name="R4" library="AS077_DCF77_Empfaenger" deviceset="RCL_R-EU_" device="0207/5V" value="100k"/>
+<part name="R5" library="AS077_DCF77_Empfaenger" deviceset="RCL_R-EU_" device="0207/5V" value="2k2"/>
+<part name="R15" library="AS077_DCF77_Empfaenger" deviceset="RCL_R-EU_" device="0207/5V" value="1k"/>
+<part name="R14" library="AS077_DCF77_Empfaenger" deviceset="RCL_R-EU_" device="0207/5V" value="47k"/>
+<part name="R13" library="AS077_DCF77_Empfaenger" deviceset="RCL_R-EU_" device="0207/5V" value="2k2"/>
+<part name="C8" library="AS077_DCF77_Empfaenger" deviceset="RCL_C-TRIMM" device="808-7.5" value="90p"/>
+<part name="C7" library="AS077_DCF77_Empfaenger" deviceset="RCL_C-EU" device="075-032X103" value="1n2..2n2*"/>
+<part name="C2" library="AS077_DCF77_Empfaenger" deviceset="RCL_C-EU" device="050-024X044" value="100n"/>
+<part name="C9" library="AS077_DCF77_Empfaenger" deviceset="RCL_C-EU" device="050-024X044" value="100n"/>
+<part name="C10" library="AS077_DCF77_Empfaenger" deviceset="RCL_C-EU" device="050-024X044" value="100n"/>
+<part name="C1" library="AS077_DCF77_Empfaenger" deviceset="RCL_C-EU" device="050-024X044" value="100n"/>
+<part name="T2" library="AS077_DCF77_Empfaenger" deviceset="BF244A" device="5.08" value="BF244A"/>
+<part name="T3" library="AS077_DCF77_Empfaenger" deviceset="BC549C" device="5.08" value="BC549C"/>
+<part name="T4" library="AS077_DCF77_Empfaenger" deviceset="BC549C" device="5.08" value="BC549C"/>
+<part name="T1" library="AS077_DCF77_Empfaenger" deviceset="BC549C" device="5.08" value="BC549C"/>
+<part name="D1" library="AS077_DCF77_Empfaenger" deviceset="DIODE_AA112" device="" value="AA112"/>
+<part name="C5" library="AS077_DCF77_Empfaenger" deviceset="RCL_C-EU" device="050-024X044" value="100n"/>
+<part name="D2" library="AS077_DCF77_Empfaenger" deviceset="DIODE_AA112" device="" value="AA112"/>
+<part name="C11" library="AS077_DCF77_Empfaenger" deviceset="RCL_C-EU" device="075-032X103" value="270n*"/>
+<part name="C4" library="AS077_DCF77_Empfaenger" deviceset="RCL_C-EU" device="050-024X044" value="10n"/>
+<part name="C13" library="AS077_DCF77_Empfaenger" deviceset="RCL_C-EU" device="075-032X103" value="270n*"/>
+<part name="J1" library="AS077_DCF77_Empfaenger" deviceset="JUMPER_J" device="5MM" value="Rückkopplung"/>
+<part name="PAD2" library="AS077_DCF77_Empfaenger" deviceset="WIREPAD_2.2/1.3" device="" value="ANT"/>
+<part name="PAD4" library="AS077_DCF77_Empfaenger" deviceset="WIREPAD_2.2/1.3" device="" value="ANT"/>
+<part name="GND1" library="AS077_DCF77_Empfaenger" deviceset="GND" device=""/>
+<part name="C6" library="AS077_DCF77_Empfaenger" deviceset="RCL_C-EU" device="050-024X044" value="150p"/>
+<part name="R8" library="AS077_DCF77_Empfaenger" deviceset="RCL_R-EU_" device="0207/5V" value="22k"/>
+<part name="R12" library="AS077_DCF77_Empfaenger" deviceset="RCL_R-EU_" device="0207/5V" value="22k"/>
+<part name="C12" library="AS077_DCF77_Empfaenger" deviceset="RCL_CPOL-EU" device="E5-6" value="1µ"/>
+<part name="R9" library="AS077_DCF77_Empfaenger" deviceset="RCL_R-EU_" device="0207/5V" value="10k"/>
+<part name="R11" library="AS077_DCF77_Empfaenger" deviceset="RCL_R-EU_" device="0207/5V" value="1k"/>
+<part name="R10" library="AS077_DCF77_Empfaenger" deviceset="RCL_R-EU_" device="0207/5V" value="1k"/>
+<part name="LED1" library="AS077_DCF77_Empfaenger" deviceset="LED_LED" device="5MM" value="rot"/>
+<part name="PAD3" library="AS077_DCF77_Empfaenger" deviceset="WIREPAD_2.2/1.3" device="" value="Comp."/>
+<part name="PAD5" library="AS077_DCF77_Empfaenger" deviceset="WIREPAD_2.2/1.3" device="" value="GND"/>
+<part name="PAD1" library="AS077_DCF77_Empfaenger" deviceset="WIREPAD_2.2/1.3" device="" value="VCC"/>
+<part name="GND2" library="AS077_DCF77_Empfaenger" deviceset="GND" device=""/>
+<part name="R2" library="AS077_DCF77_Empfaenger" deviceset="RCL_R-EU_" device="0207/5V" value="2k2"/>
+<part name="GND3" library="AS077_DCF77_Empfaenger" deviceset="GND" device=""/>
+<part name="IC3" library="AS077_DCF77_Empfaenger" deviceset="45XX_4538" device="N" value="4538N"/>
+<part name="IC2" library="AS077_DCF77_Empfaenger" deviceset="40XX_4093" device="N" value="4093N"/>
+<part name="IC4" library="AS077_DCF77_Empfaenger" deviceset="40XX_4093" device="N" value="4093N"/>
+<part name="P+2" library="AS077_DCF77_Empfaenger" deviceset="VCC" device=""/>
+<part name="P+3" library="AS077_DCF77_Empfaenger" deviceset="VCC" device=""/>
+<part name="P+4" library="AS077_DCF77_Empfaenger" deviceset="VCC" device=""/>
+<part name="P+7" library="AS077_DCF77_Empfaenger" deviceset="VCC" device=""/>
+<part name="P+8" library="AS077_DCF77_Empfaenger" deviceset="VCC" device=""/>
+<part name="GND4" library="AS077_DCF77_Empfaenger" deviceset="GND" device=""/>
+<part name="GND5" library="AS077_DCF77_Empfaenger" deviceset="GND" device=""/>
+<part name="GND6" library="AS077_DCF77_Empfaenger" deviceset="GND" device=""/>
+<part name="PAD6" library="AS077_DCF77_Empfaenger" deviceset="WIREPAD_2.2/1.3" device="" value="A"/>
+<part name="PAD7" library="AS077_DCF77_Empfaenger" deviceset="WIREPAD_2.2/1.3" device="" value="B"/>
+<part name="PAD12" library="AS077_DCF77_Empfaenger" deviceset="WIREPAD_2.2/1.3" device="" value="F"/>
+<part name="PAD13" library="AS077_DCF77_Empfaenger" deviceset="WIREPAD_2.2/1.3" device="" value="E"/>
+<part name="PAD16" library="AS077_DCF77_Empfaenger" deviceset="WIREPAD_2.2/1.3" device="" value="D"/>
+<part name="PAD18" library="AS077_DCF77_Empfaenger" deviceset="WIREPAD_2.2/1.3" device="" value="G"/>
+<part name="PAD17" library="AS077_DCF77_Empfaenger" deviceset="WIREPAD_2.2/1.3" device="" value="H"/>
+<part name="R18" library="AS077_DCF77_Empfaenger" deviceset="RCL_R-EU_" device="0207/15" value="39k"/>
+<part name="C15" library="AS077_DCF77_Empfaenger" deviceset="RCL_C-EU" device="075-032X103" value="270n*"/>
+<part name="C14" library="AS077_DCF77_Empfaenger" deviceset="RCL_C-EU" device="075-032X103" value="150n*"/>
+<part name="R19" library="AS077_DCF77_Empfaenger" deviceset="RCL_R-EU_" device="0207/5V" value="100k"/>
+<part name="R21" library="AS077_DCF77_Empfaenger" deviceset="RCL_R-EU_" device="0207/5V" value="56k"/>
+<part name="C16" library="AS077_DCF77_Empfaenger" deviceset="RCL_C-EU" device="050-024X044" value="22n"/>
+<part name="C17" library="AS077_DCF77_Empfaenger" deviceset="RCL_C-EU" device="050-024X044" value="22n"/>
+<part name="GND7" library="AS077_DCF77_Empfaenger" deviceset="GND" device=""/>
+<part name="R20" library="AS077_DCF77_Empfaenger" deviceset="RCL_R-EU_" device="0207/5V" value="1k"/>
+<part name="T5" library="AS077_DCF77_Empfaenger" deviceset="BC549C" device="2.54" value="BC549C"/>
+<part name="T6" library="AS077_DCF77_Empfaenger" deviceset="BC549C" device="2.54" value="BC549C"/>
+<part name="R17" library="AS077_DCF77_Empfaenger" deviceset="RCL_R-EU_" device="0207/15" value="1M"/>
+<part name="P+10" library="AS077_DCF77_Empfaenger" deviceset="VCC" device=""/>
+<part name="GND8" library="AS077_DCF77_Empfaenger" deviceset="GND" device=""/>
+<part name="C20" library="AS077_DCF77_Empfaenger" deviceset="RCL_C-EU" device="075-032X103" value="470n*"/>
+<part name="R22" library="AS077_DCF77_Empfaenger" deviceset="RCL_R-EU_" device="0207/15" value="1M"/>
+<part name="GND9" library="AS077_DCF77_Empfaenger" deviceset="GND" device=""/>
+<part name="GND10" library="AS077_DCF77_Empfaenger" deviceset="GND" device=""/>
+<part name="GND11" library="AS077_DCF77_Empfaenger" deviceset="GND" device=""/>
+<part name="R23" library="AS077_DCF77_Empfaenger" deviceset="RCL_R-EU_" device="0207/10" value="1k"/>
+<part name="T7" library="AS077_DCF77_Empfaenger" deviceset="BC559C" device="5.08" value="BC559C"/>
+<part name="LED2" library="AS077_DCF77_Empfaenger" deviceset="LED_LED" device="5MM" value="rot"/>
+<part name="LED3" library="AS077_DCF77_Empfaenger" deviceset="LED_LED" device="5MM" value="grün"/>
+<part name="P+5" library="AS077_DCF77_Empfaenger" deviceset="VCC" device=""/>
+<part name="PAD8" library="AS077_DCF77_Empfaenger" deviceset="WIREPAD_2.2/1.3" device="" value="C"/>
+<part name="C19" library="AS077_DCF77_Empfaenger" deviceset="RCL_C-EU" device="050-024X044" value="100n"/>
+<part name="C3" library="AS077_DCF77_Empfaenger" deviceset="RCL_CPOL-EU" device="E5-10.5" value="470u"/>
+<part name="C18" library="AS077_DCF77_Empfaenger" deviceset="RCL_CPOL-EU" device="E5-10.5" value="470u"/>
+<part name="GND12" library="AS077_DCF77_Empfaenger" deviceset="GND" device=""/>
+<part name="PAD11" library="AS077_DCF77_Empfaenger" deviceset="WIREPAD_2.2/1.3" device="" value="BAT+"/>
+<part name="PAD14" library="AS077_DCF77_Empfaenger" deviceset="WIREPAD_2.2/1.3" device="" value="BAT-"/>
+<part name="P+1" library="AS077_DCF77_Empfaenger" deviceset="VCC" device=""/>
+<part name="GND13" library="AS077_DCF77_Empfaenger" deviceset="GND" device=""/>
+<part name="PAD10" library="AS077_DCF77_Empfaenger" deviceset="WIREPAD_2.2/1.3" device="" value="BUZ+"/>
+<part name="PAD9" library="AS077_DCF77_Empfaenger" deviceset="WIREPAD_2.2/1.3" device="" value="BUZ-"/>
+<part name="GND14" library="AS077_DCF77_Empfaenger" deviceset="GND" device=""/>
+<part name="PAD15" library="AS077_DCF77_Empfaenger" deviceset="WIREPAD_2.2/1.3" device="" value="GND"/>
+<part name="FRAME1" library="AS077_DCF77_Empfaenger" deviceset="A3L-LOC" device=""/>
+<part name="U$1" library="AS077_DCF77_Empfaenger" deviceset="9V_SILKSCREEN" device=""/>
+<part name="Q1" library="AS077_DCF77_Empfaenger" deviceset="34MM_PIEZO" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -1398,6 +1374,8 @@ Piezo: RMP-34W</text>
 <text x="218.44" y="218.44" size="2.54" layer="91" align="center">x</text>
 <text x="302.26" y="73.66" size="2.54" layer="91" align="center">"0"</text>
 <text x="325.12" y="73.66" size="2.54" layer="91" align="center">"1"</text>
+<text x="96.52" y="40.64" size="2.54" layer="97">*  MKT (MKH) Kondensatoren</text>
+<text x="312.42" y="58.42" size="2.54" layer="97">low current LEDs!</text>
 </plain>
 <instances>
 <instance part="IC1" gate="A" x="218.44" y="208.28" smashed="yes">
@@ -2634,11 +2612,6 @@ Piezo: RMP-34W</text>
 <note version="6.3" minversion="6.2.2" severity="warning">
 Since Version 6.2.2 text objects can contain more than one line,
 which will not be processed correctly with this version.
-</note>
-<note version="8.2" severity="warning">
-Since Version 8.2, EAGLE supports online libraries. The ids
-of those online libraries will not be understood (or retained)
-with this version.
 </note>
 <note version="8.3" severity="warning">
 Since Version 8.3, EAGLE supports URNs for individual library

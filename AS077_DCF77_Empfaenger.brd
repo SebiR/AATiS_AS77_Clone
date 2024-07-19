@@ -3,7 +3,7 @@
 <eagle version="9.6.2">
 <drawing>
 <settings>
-<setting alwaysvectorfont="yes"/>
+<setting alwaysvectorfont="no"/>
 <setting keepoldvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
@@ -586,8 +586,8 @@ Element</text>
 <text x="142.24" y="13.97" size="2" layer="21" font="vector" ratio="15" align="center">EIN</text>
 </plain>
 <libraries>
-<library name="0027 DCF77-Empfänger">
-<description>Generated from &lt;b&gt;0027 DCF77-Empfänger.sch&lt;/b&gt;&lt;p&gt;
+<library name="AS077_DCF77_Empfaenger">
+<description>Generated from &lt;b&gt;AS077_DCF77_Empfaenger.sch&lt;/b&gt;&lt;p&gt;
 by exp-lbrs.ulp</description>
 <packages>
 <package name="DIL16">
@@ -1151,308 +1151,308 @@ grid 5.08 mm, diameter 10.5 mm</description>
 </pass>
 </autorouter>
 <elements>
-<element name="IC1" library="0027 DCF77-Empfänger" package="DIL08" value="CA3130E" x="62.23" y="67.31" smashed="yes" rot="R90">
+<element name="IC1" library="AS077_DCF77_Empfaenger" package="DIL08" value="CA3130E" x="62.23" y="67.31" smashed="yes" rot="R90">
 <attribute name="NAME" x="62.23" y="73.66" size="1.3" layer="25" font="vector" ratio="12" rot="R180" align="center"/>
 <attribute name="VALUE" x="62.23" y="73.66" size="1.5" layer="27" font="vector" ratio="12" rot="R180" align="center"/>
 </element>
-<element name="J2" library="0027 DCF77-Empfänger" package="JUMPER_05" value="JUMPER_J5MM" x="73.66" y="60.96" smashed="yes" rot="R180">
+<element name="J2" library="AS077_DCF77_Empfaenger" package="JUMPER_05" value="JUMPER_J5MM" x="73.66" y="60.96" smashed="yes" rot="R180">
 <attribute name="NAME" x="73.66" y="62.23" size="1.3" layer="25" font="vector" ratio="12" rot="R180" align="center"/>
 </element>
-<element name="J3" library="0027 DCF77-Empfänger" package="JUMPER_05" value="JUMPER_J5MM" x="73.66" y="66.04" smashed="yes" rot="R180">
+<element name="J3" library="AS077_DCF77_Empfaenger" package="JUMPER_05" value="JUMPER_J5MM" x="73.66" y="66.04" smashed="yes" rot="R180">
 <attribute name="NAME" x="73.66" y="67.31" size="1.3" layer="25" font="vector" ratio="12" rot="R180" align="center"/>
 </element>
-<element name="R6" library="0027 DCF77-Empfänger" package="RCL_0207/5V" value="56k" x="81.28" y="63.5" smashed="yes" rot="R270">
+<element name="R6" library="AS077_DCF77_Empfaenger" package="RCL_0207/5V" value="56k" x="81.28" y="63.5" smashed="yes" rot="R270">
 <attribute name="NAME" x="80.01" y="63.5" size="1.3" layer="25" font="vector" ratio="12" rot="R270" align="center"/>
 <attribute name="VALUE" x="79.121" y="64.643" size="1.5" layer="27" font="vector" ratio="12" rot="R270" align="center"/>
 </element>
-<element name="R16" library="0027 DCF77-Empfänger" package="RCL_0207/5V" value="220k" x="81.28" y="76.2" smashed="yes" rot="R270">
+<element name="R16" library="AS077_DCF77_Empfaenger" package="RCL_0207/5V" value="220k" x="81.28" y="76.2" smashed="yes" rot="R270">
 <attribute name="NAME" x="81.28" y="81.28" size="1.3" layer="25" font="vector" ratio="12" align="center"/>
 <attribute name="VALUE" x="81.28" y="81.28" size="1.5" layer="27" font="vector" ratio="12" align="center"/>
 </element>
-<element name="R7" library="0027 DCF77-Empfänger" package="RCL_0207/5V" value="3M9" x="78.74" y="71.12" smashed="yes">
+<element name="R7" library="AS077_DCF77_Empfaenger" package="RCL_0207/5V" value="3M9" x="78.74" y="71.12" smashed="yes">
 <attribute name="NAME" x="79.375" y="69.85" size="1.3" layer="25" font="vector" ratio="12" align="center"/>
 <attribute name="VALUE" x="77.597" y="68.961" size="1.5" layer="27" font="vector" ratio="12" align="center"/>
 </element>
-<element name="R1" library="0027 DCF77-Empfänger" package="RCL_0207/5V" value="1k" x="116.84" y="60.96" smashed="yes" rot="R270">
+<element name="R1" library="AS077_DCF77_Empfaenger" package="RCL_0207/5V" value="1k" x="116.84" y="60.96" smashed="yes" rot="R270">
 <attribute name="NAME" x="118.11" y="60.96" size="1.3" layer="25" font="vector" ratio="12" rot="R270" align="center"/>
 <attribute name="VALUE" x="115.57" y="60.325" size="1.5" layer="27" font="vector" ratio="12" rot="R90" align="center"/>
 </element>
-<element name="R3" library="0027 DCF77-Empfänger" package="RCL_0207/15" value="3k9" x="121.92" y="66.04" smashed="yes" rot="R270">
+<element name="R3" library="AS077_DCF77_Empfaenger" package="RCL_0207/15" value="3k9" x="121.92" y="66.04" smashed="yes" rot="R270">
 <attribute name="NAME" x="123.825" y="66.04" size="1.3" layer="25" font="vector" ratio="12" rot="R270" align="center"/>
 <attribute name="VALUE" x="121.92" y="66.04" size="1.5" layer="27" font="vector" ratio="12" rot="R270" align="center"/>
 </element>
-<element name="R4" library="0027 DCF77-Empfänger" package="RCL_0207/5V" value="100k" x="111.76" y="60.96" smashed="yes" rot="R270">
+<element name="R4" library="AS077_DCF77_Empfaenger" package="RCL_0207/5V" value="100k" x="111.76" y="60.96" smashed="yes" rot="R270">
 <attribute name="NAME" x="113.03" y="60.96" size="1.3" layer="25" font="vector" ratio="12" rot="R270" align="center"/>
 <attribute name="VALUE" x="109.855" y="59.69" size="1.5" layer="27" font="vector" ratio="12" rot="R90" align="center"/>
 </element>
-<element name="R5" library="0027 DCF77-Empfänger" package="RCL_0207/5V" value="2k2" x="106.68" y="60.96" smashed="yes" rot="R270">
+<element name="R5" library="AS077_DCF77_Empfaenger" package="RCL_0207/5V" value="2k2" x="106.68" y="60.96" smashed="yes" rot="R270">
 <attribute name="NAME" x="107.95" y="60.96" size="1.3" layer="25" font="vector" ratio="12" rot="R270" align="center"/>
 <attribute name="VALUE" x="104.775" y="59.69" size="1.5" layer="27" font="vector" ratio="12" rot="R90" align="center"/>
 </element>
-<element name="R15" library="0027 DCF77-Empfänger" package="RCL_0207/5V" value="1k" x="101.6" y="76.2" smashed="yes" rot="R270">
+<element name="R15" library="AS077_DCF77_Empfaenger" package="RCL_0207/5V" value="1k" x="101.6" y="76.2" smashed="yes" rot="R270">
 <attribute name="NAME" x="101.6" y="81.28" size="1.3" layer="25" font="vector" ratio="12" align="center"/>
 <attribute name="VALUE" x="101.6" y="81.28" size="1.5" layer="27" font="vector" ratio="12" align="center"/>
 </element>
-<element name="R14" library="0027 DCF77-Empfänger" package="RCL_0207/5V" value="47k" x="111.76" y="76.2" smashed="yes" rot="R270">
+<element name="R14" library="AS077_DCF77_Empfaenger" package="RCL_0207/5V" value="47k" x="111.76" y="76.2" smashed="yes" rot="R270">
 <attribute name="NAME" x="111.76" y="81.28" size="1.3" layer="25" font="vector" ratio="12" align="center"/>
 <attribute name="VALUE" x="109.601" y="77.343" size="1.5" layer="27" font="vector" ratio="12" rot="R270" align="center"/>
 </element>
-<element name="R13" library="0027 DCF77-Empfänger" package="RCL_0207/5V" value="2k2" x="132.08" y="76.2" smashed="yes" rot="R270">
+<element name="R13" library="AS077_DCF77_Empfaenger" package="RCL_0207/5V" value="2k2" x="132.08" y="76.2" smashed="yes" rot="R270">
 <attribute name="NAME" x="132.08" y="81.28" size="1.3" layer="25" font="vector" ratio="12" rot="R180" align="center"/>
 <attribute name="VALUE" x="131.445" y="81.28" size="1.5" layer="27" font="vector" ratio="12" align="center"/>
 </element>
-<element name="C8" library="0027 DCF77-Empfänger" package="RCL_CTRIM808-BC7.5" value="90p" x="147.32" y="66.04" smashed="yes" rot="R90">
+<element name="C8" library="AS077_DCF77_Empfaenger" package="RCL_CTRIM808-BC7.5" value="90p" x="147.32" y="66.04" smashed="yes" rot="R90">
 <attribute name="NAME" x="151.765" y="70.485" size="1.3" layer="25" font="vector" ratio="12" rot="R180" align="center"/>
 <attribute name="VALUE" x="151.13" y="71.12" size="1.5" layer="27" font="vector" ratio="12" rot="R180" align="center"/>
 </element>
-<element name="C7" library="0027 DCF77-Empfänger" package="RCL_C075-032X103" value="1n2..2n2*" x="137.16" y="62.23" smashed="yes" rot="R270">
+<element name="C7" library="AS077_DCF77_Empfaenger" package="RCL_C075-032X103" value="1n2..2n2*" x="137.16" y="62.23" smashed="yes" rot="R270">
 <attribute name="NAME" x="134.62" y="62.23" size="1.3" layer="25" font="vector" ratio="12" rot="R270" align="center"/>
 <attribute name="VALUE" x="139.7" y="62.23" size="1.5" layer="27" font="vector" ratio="12" rot="R270" align="center"/>
 </element>
-<element name="C2" library="0027 DCF77-Empfänger" package="RCL_C050-024X044" value="100n" x="91.44" y="76.2" smashed="yes" rot="R90">
+<element name="C2" library="AS077_DCF77_Empfaenger" package="RCL_C050-024X044" value="100n" x="91.44" y="76.2" smashed="yes" rot="R90">
 <attribute name="NAME" x="91.44" y="81.28" size="1.3" layer="25" font="vector" ratio="12" align="center"/>
 <attribute name="VALUE" x="91.44" y="80.645" size="1.5" layer="27" font="vector" ratio="12" rot="R180" align="center"/>
 </element>
-<element name="C9" library="0027 DCF77-Empfänger" package="RCL_C050-024X044" value="100n" x="127" y="76.2" smashed="yes" rot="R90">
+<element name="C9" library="AS077_DCF77_Empfaenger" package="RCL_C050-024X044" value="100n" x="127" y="76.2" smashed="yes" rot="R90">
 <attribute name="NAME" x="127" y="81.28" size="1.3" layer="25" font="vector" ratio="12" rot="R180" align="center"/>
 <attribute name="VALUE" x="125.095" y="76.2" size="1.5" layer="27" font="vector" ratio="12" rot="R90" align="center"/>
 </element>
-<element name="C10" library="0027 DCF77-Empfänger" package="RCL_C050-024X044" value="100n" x="106.68" y="76.2" smashed="yes" rot="R90">
+<element name="C10" library="AS077_DCF77_Empfaenger" package="RCL_C050-024X044" value="100n" x="106.68" y="76.2" smashed="yes" rot="R90">
 <attribute name="NAME" x="106.68" y="81.28" size="1.3" layer="25" font="vector" ratio="12" rot="R180" align="center"/>
 <attribute name="VALUE" x="109.347" y="74.041" size="1.5" layer="27" font="vector" ratio="12" rot="R90" align="center"/>
 </element>
-<element name="C1" library="0027 DCF77-Empfänger" package="RCL_C050-024X044" value="100n" x="116.84" y="76.2" smashed="yes" rot="R270">
+<element name="C1" library="AS077_DCF77_Empfaenger" package="RCL_C050-024X044" value="100n" x="116.84" y="76.2" smashed="yes" rot="R270">
 <attribute name="NAME" x="116.84" y="81.28" size="1.3" layer="25" font="vector" ratio="12" align="center"/>
 <attribute name="VALUE" x="114.808" y="76.454" size="1.5" layer="27" font="vector" ratio="12" rot="R270" align="center"/>
 </element>
-<element name="T2" library="0027 DCF77-Empfänger" package="TO92_5.08" value="BF244A" x="129.54" y="68.58" smashed="yes" rot="R270">
+<element name="T2" library="AS077_DCF77_Empfaenger" package="TO92_5.08" value="BF244A" x="129.54" y="68.58" smashed="yes" rot="R270">
 <attribute name="NAME" x="126.365" y="69.85" size="1.3" layer="25" font="vector" ratio="12" align="center"/>
 <attribute name="VALUE" x="126.365" y="67.31" size="1.5" layer="27" font="vector" ratio="12" rot="R270" align="center"/>
 </element>
-<element name="T3" library="0027 DCF77-Empfänger" package="TO92_5.08" value="BC549C" x="104.14" y="68.58" smashed="yes" rot="R90">
+<element name="T3" library="AS077_DCF77_Empfaenger" package="TO92_5.08" value="BC549C" x="104.14" y="68.58" smashed="yes" rot="R90">
 <attribute name="NAME" x="107.315" y="68.58" size="1.3" layer="25" font="vector" ratio="12" align="center"/>
 <attribute name="VALUE" x="110.49" y="66.675" size="1.5" layer="27" font="vector" ratio="12" rot="R180" align="center"/>
 </element>
-<element name="T4" library="0027 DCF77-Empfänger" package="TO92_5.08" value="BC549C" x="27.94" y="68.58" smashed="yes" rot="R90">
+<element name="T4" library="AS077_DCF77_Empfaenger" package="TO92_5.08" value="BC549C" x="27.94" y="68.58" smashed="yes" rot="R90">
 <attribute name="NAME" x="25.4" y="71.755" size="1.3" layer="25" font="vector" ratio="12" rot="R180" align="center"/>
 <attribute name="VALUE" x="30.48" y="68.58" size="1.5" layer="27" font="vector" ratio="12" rot="R90" align="center"/>
 </element>
-<element name="T1" library="0027 DCF77-Empfänger" package="TO92_5.08" value="BC549C" x="43.18" y="60.96" smashed="yes" rot="R90">
+<element name="T1" library="AS077_DCF77_Empfaenger" package="TO92_5.08" value="BC549C" x="43.18" y="60.96" smashed="yes" rot="R90">
 <attribute name="NAME" x="46.355" y="60.96" size="1.3" layer="25" font="vector" ratio="12" rot="R180" align="center"/>
 <attribute name="VALUE" x="44.45" y="64.135" size="1.5" layer="27" font="vector" ratio="12" rot="R90" align="center"/>
 </element>
-<element name="D1" library="0027 DCF77-Empfänger" package="DIODE_DO07" value="AA112" x="90.17" y="60.96" smashed="yes">
+<element name="D1" library="AS077_DCF77_Empfaenger" package="DIODE_DO07" value="AA112" x="90.17" y="60.96" smashed="yes">
 <attribute name="NAME" x="90.17" y="63.5" size="1.3" layer="25" font="vector" ratio="12" align="center"/>
 <attribute name="VALUE" x="90.17" y="63.5" size="1.5" layer="27" font="vector" ratio="12" align="center"/>
 </element>
-<element name="C5" library="0027 DCF77-Empfänger" package="RCL_C050-024X044" value="100n" x="99.06" y="63.5" smashed="yes" rot="R180">
+<element name="C5" library="AS077_DCF77_Empfaenger" package="RCL_C050-024X044" value="100n" x="99.06" y="63.5" smashed="yes" rot="R180">
 <attribute name="NAME" x="100.965" y="60.96" size="1.3" layer="25" font="vector" ratio="12" rot="R180" align="center"/>
 <attribute name="VALUE" x="100.33" y="60.96" size="1.5" layer="27" font="vector" ratio="12" align="center"/>
 </element>
-<element name="D2" library="0027 DCF77-Empfänger" package="DIODE_DO07" value="AA112" x="96.52" y="72.39" smashed="yes" rot="R90">
+<element name="D2" library="AS077_DCF77_Empfaenger" package="DIODE_DO07" value="AA112" x="96.52" y="72.39" smashed="yes" rot="R90">
 <attribute name="NAME" x="96.52" y="81.28" size="1.3" layer="25" font="vector" ratio="12" rot="R180" align="center"/>
 <attribute name="VALUE" x="99.06" y="72.39" size="1.5" layer="27" font="vector" ratio="12" rot="R270" align="center"/>
 </element>
-<element name="C11" library="0027 DCF77-Empfänger" package="RCL_C075-032X103" value="270n*" x="86.36" y="74.93" smashed="yes" rot="R90">
+<element name="C11" library="AS077_DCF77_Empfaenger" package="RCL_C075-032X103" value="270n*" x="86.36" y="74.93" smashed="yes" rot="R90">
 <attribute name="NAME" x="86.36" y="81.28" size="1.3" layer="25" font="vector" ratio="12" align="center"/>
 <attribute name="VALUE" x="83.82" y="75.565" size="1.5" layer="27" font="vector" ratio="12" rot="R90" align="center"/>
 </element>
-<element name="C4" library="0027 DCF77-Empfänger" package="RCL_C050-024X044" value="10n" x="116.84" y="68.58" smashed="yes" rot="R180">
+<element name="C4" library="AS077_DCF77_Empfaenger" package="RCL_C050-024X044" value="10n" x="116.84" y="68.58" smashed="yes" rot="R180">
 <attribute name="NAME" x="116.84" y="71.12" size="1.3" layer="25" font="vector" ratio="12" rot="R180" align="center"/>
 <attribute name="VALUE" x="116.84" y="71.12" size="1.5" layer="27" font="vector" ratio="12" rot="R180" align="center"/>
 </element>
-<element name="C13" library="0027 DCF77-Empfänger" package="RCL_C075-032X103" value="270n*" x="71.12" y="74.93" smashed="yes" rot="R90">
+<element name="C13" library="AS077_DCF77_Empfaenger" package="RCL_C075-032X103" value="270n*" x="71.12" y="74.93" smashed="yes" rot="R90">
 <attribute name="NAME" x="71.12" y="81.28" size="1.3" layer="25" font="vector" ratio="12" rot="R180" align="center"/>
 <attribute name="VALUE" x="71.12" y="81.28" size="1.5" layer="27" font="vector" ratio="12" rot="R180" align="center"/>
 </element>
-<element name="J1" library="0027 DCF77-Empfänger" package="JUMPER_05" value="Rückkopplung" x="129.54" y="58.42" smashed="yes" rot="R180">
+<element name="J1" library="AS077_DCF77_Empfaenger" package="JUMPER_05" value="Rückkopplung" x="129.54" y="58.42" smashed="yes" rot="R180">
 <attribute name="NAME" x="129.54" y="59.69" size="1.3" layer="25" font="vector" ratio="12" rot="R180" align="center"/>
 <attribute name="VALUE" x="129.54" y="55.245" size="1.5" layer="27" font="vector" ratio="12" rot="R180" align="center"/>
 </element>
-<element name="PAD2" library="0027 DCF77-Empfänger" package="WIREPAD_2.2/1.3" value="ANT" x="137.16" y="68.58" smashed="yes">
+<element name="PAD2" library="AS077_DCF77_Empfaenger" package="WIREPAD_2.2/1.3" value="ANT" x="137.16" y="68.58" smashed="yes">
 <attribute name="VALUE" x="139.7" y="71.12" size="1.5" layer="27" font="vector" ratio="12" align="center"/>
 </element>
-<element name="PAD4" library="0027 DCF77-Empfänger" package="WIREPAD_2.2/1.3" value="ANT" x="121.92" y="78.74" smashed="yes">
+<element name="PAD4" library="AS077_DCF77_Empfaenger" package="WIREPAD_2.2/1.3" value="ANT" x="121.92" y="78.74" smashed="yes">
 <attribute name="VALUE" x="121.92" y="79.34" size="1.5" layer="27" font="vector" ratio="12" align="center"/>
 </element>
-<element name="C6" library="0027 DCF77-Empfänger" package="RCL_C050-024X044" value="150p" x="60.96" y="58.42" smashed="yes">
+<element name="C6" library="AS077_DCF77_Empfaenger" package="RCL_C050-024X044" value="150p" x="60.96" y="58.42" smashed="yes">
 <attribute name="NAME" x="67.31" y="58.42" size="1.3" layer="25" font="vector" ratio="12" align="center"/>
 <attribute name="VALUE" x="63.5" y="55.88" size="1.5" layer="27" font="vector" ratio="12" align="center"/>
 </element>
-<element name="R8" library="0027 DCF77-Empfänger" package="RCL_0207/5V" value="22k" x="38.1" y="63.5" smashed="yes" rot="R270">
+<element name="R8" library="AS077_DCF77_Empfaenger" package="RCL_0207/5V" value="22k" x="38.1" y="63.5" smashed="yes" rot="R270">
 <attribute name="NAME" x="36.83" y="63.5" size="1.3" layer="25" font="vector" ratio="12" rot="R270" align="center"/>
 <attribute name="VALUE" x="36.195" y="62.865" size="1.5" layer="27" font="vector" ratio="12" rot="R270" align="center"/>
 </element>
-<element name="R12" library="0027 DCF77-Empfänger" package="RCL_0207/5V" value="22k" x="35.56" y="68.58" smashed="yes">
+<element name="R12" library="AS077_DCF77_Empfaenger" package="RCL_0207/5V" value="22k" x="35.56" y="68.58" smashed="yes">
 <attribute name="NAME" x="36.195" y="70.485" size="1.3" layer="25" font="vector" ratio="12" align="center"/>
 <attribute name="VALUE" x="36.83" y="70.485" size="1.5" layer="27" font="vector" ratio="12" align="center"/>
 </element>
-<element name="C12" library="0027 DCF77-Empfänger" package="E5-6" value="1µ" x="33.02" y="76.2" smashed="yes" rot="R90">
+<element name="C12" library="AS077_DCF77_Empfaenger" package="E5-6" value="1µ" x="33.02" y="76.2" smashed="yes" rot="R90">
 <attribute name="NAME" x="33.02" y="80.645" size="1.3" layer="25" font="vector" ratio="12" rot="R180" align="center"/>
 <attribute name="VALUE" x="29.21" y="79.375" size="1.5" layer="27" font="vector" ratio="12" rot="R180" align="center"/>
 </element>
-<element name="R9" library="0027 DCF77-Empfänger" package="RCL_0207/5V" value="10k" x="27.94" y="58.42" smashed="yes" rot="R270">
+<element name="R9" library="AS077_DCF77_Empfaenger" package="RCL_0207/5V" value="10k" x="27.94" y="58.42" smashed="yes" rot="R270">
 <attribute name="NAME" x="29.21" y="58.42" size="1.3" layer="25" font="vector" ratio="12" rot="R90" align="center"/>
 <attribute name="VALUE" x="26.035" y="57.785" size="1.5" layer="27" font="vector" ratio="12" rot="R270" align="center"/>
 </element>
-<element name="R11" library="0027 DCF77-Empfänger" package="RCL_0207/5V" value="1k" x="22.86" y="63.5" smashed="yes">
+<element name="R11" library="AS077_DCF77_Empfaenger" package="RCL_0207/5V" value="1k" x="22.86" y="63.5" smashed="yes">
 <attribute name="NAME" x="23.495" y="65.405" size="1.3" layer="25" font="vector" ratio="12" align="center"/>
 <attribute name="VALUE" x="22.86" y="65.405" size="1.5" layer="27" font="vector" ratio="12" align="center"/>
 </element>
-<element name="R10" library="0027 DCF77-Empfänger" package="RCL_0207/5V" value="1k" x="43.18" y="71.12" smashed="yes" rot="R90">
+<element name="R10" library="AS077_DCF77_Empfaenger" package="RCL_0207/5V" value="1k" x="43.18" y="71.12" smashed="yes" rot="R90">
 <attribute name="NAME" x="41.275" y="72.39" size="1.3" layer="25" font="vector" ratio="12" rot="R90" align="center"/>
 <attribute name="VALUE" x="45.339" y="69.977" size="1.5" layer="27" font="vector" ratio="12" rot="R90" align="center"/>
 </element>
-<element name="LED1" library="0027 DCF77-Empfänger" package="LED_LED5MM" value="rot" x="43.18" y="77.47" smashed="yes" rot="R90">
+<element name="LED1" library="AS077_DCF77_Empfaenger" package="LED_LED5MM" value="rot" x="43.18" y="77.47" smashed="yes" rot="R90">
 <attribute name="NAME" x="43.18" y="81.28" size="1.3" layer="25" font="vector" ratio="12" rot="R180" align="center"/>
 <attribute name="VALUE" x="43.18" y="81.28" size="1.5" layer="27" font="vector" ratio="12" rot="R180" align="center"/>
 </element>
-<element name="PAD3" library="0027 DCF77-Empfänger" package="WIREPAD_2.2/1.3" value="Comp." x="15.24" y="63.5" smashed="yes">
+<element name="PAD3" library="AS077_DCF77_Empfaenger" package="WIREPAD_2.2/1.3" value="Comp." x="15.24" y="63.5" smashed="yes">
 <attribute name="VALUE" x="15.24" y="64.5" size="1.5" layer="27" font="vector" ratio="12" align="center"/>
 </element>
-<element name="PAD5" library="0027 DCF77-Empfänger" package="WIREPAD_2.2/1.3" value="GND" x="15.24" y="68.58" smashed="yes">
+<element name="PAD5" library="AS077_DCF77_Empfaenger" package="WIREPAD_2.2/1.3" value="GND" x="15.24" y="68.58" smashed="yes">
 <attribute name="VALUE" x="15.24" y="69.58" size="1.5" layer="27" font="vector" ratio="12" align="center"/>
 </element>
-<element name="PAD1" library="0027 DCF77-Empfänger" package="WIREPAD_2.2/1.3" value="VCC" x="15.24" y="55.88" smashed="yes">
+<element name="PAD1" library="AS077_DCF77_Empfaenger" package="WIREPAD_2.2/1.3" value="VCC" x="15.24" y="55.88" smashed="yes">
 <attribute name="VALUE" x="15.24" y="58.42" size="1.5" layer="27" font="vector" ratio="12" align="center"/>
 </element>
-<element name="R2" library="0027 DCF77-Empfänger" package="RCL_0207/5V" value="2k2" x="53.34" y="55.88" smashed="yes">
+<element name="R2" library="AS077_DCF77_Empfaenger" package="RCL_0207/5V" value="2k2" x="53.34" y="55.88" smashed="yes">
 <attribute name="NAME" x="53.975" y="53.975" size="1.3" layer="25" font="vector" ratio="12" align="center"/>
 <attribute name="VALUE" x="54.61" y="53.975" size="1.5" layer="27" font="vector" ratio="12" align="center"/>
 </element>
-<element name="IC3" library="0027 DCF77-Empfänger" package="DIL16" value="4538N" x="49.53" y="21.59" smashed="yes" rot="R270">
+<element name="IC3" library="AS077_DCF77_Empfaenger" package="DIL16" value="4538N" x="49.53" y="21.59" smashed="yes" rot="R270">
 <attribute name="NAME" x="49.53" y="10.16" size="1.3" layer="25" font="vector" ratio="12" align="center"/>
 <attribute name="VALUE" x="49.53" y="21.59" size="1.5" layer="27" font="vector" ratio="12" rot="R270" align="center"/>
 </element>
-<element name="IC2" library="0027 DCF77-Empfänger" package="DIL14" value="4093N" x="19.05" y="20.32" smashed="yes" rot="R270">
+<element name="IC2" library="AS077_DCF77_Empfaenger" package="DIL14" value="4093N" x="19.05" y="20.32" smashed="yes" rot="R270">
 <attribute name="NAME" x="19.05" y="10.16" size="1.3" layer="25" font="vector" ratio="12" align="center"/>
 <attribute name="VALUE" x="19.05" y="20.32" size="1.5" layer="27" font="vector" ratio="12" rot="R270" align="center"/>
 </element>
-<element name="IC4" library="0027 DCF77-Empfänger" package="DIL14" value="4093N" x="107.95" y="40.64" smashed="yes" rot="R270">
+<element name="IC4" library="AS077_DCF77_Empfaenger" package="DIL14" value="4093N" x="107.95" y="40.64" smashed="yes" rot="R270">
 <attribute name="NAME" x="107.95" y="50.8" size="1.3" layer="25" font="vector" ratio="12" align="center"/>
 <attribute name="VALUE" x="107.95" y="40.64" size="1.5" layer="27" font="vector" ratio="12" rot="R270" align="center"/>
 </element>
-<element name="PAD6" library="0027 DCF77-Empfänger" package="WIREPAD_2.2/1.3" value="A" x="22.86" y="38.1" smashed="yes">
+<element name="PAD6" library="AS077_DCF77_Empfaenger" package="WIREPAD_2.2/1.3" value="A" x="22.86" y="38.1" smashed="yes">
 <attribute name="VALUE" x="22.86" y="38.7" size="1.5" layer="27" font="vector" ratio="12" align="center"/>
 </element>
-<element name="PAD7" library="0027 DCF77-Empfänger" package="WIREPAD_2.2/1.3" value="B" x="38.1" y="17.78" smashed="yes">
+<element name="PAD7" library="AS077_DCF77_Empfaenger" package="WIREPAD_2.2/1.3" value="B" x="38.1" y="17.78" smashed="yes">
 <attribute name="VALUE" x="37.465" y="20.32" size="1.5" layer="27" font="vector" ratio="12" align="center"/>
 </element>
-<element name="PAD12" library="0027 DCF77-Empfänger" package="WIREPAD_2.2/1.3" value="F" x="35.56" y="43.18" smashed="yes">
+<element name="PAD12" library="AS077_DCF77_Empfaenger" package="WIREPAD_2.2/1.3" value="F" x="35.56" y="43.18" smashed="yes">
 <attribute name="VALUE" x="35.56" y="43.78" size="1.5" layer="27" font="vector" ratio="12" align="center"/>
 </element>
-<element name="PAD13" library="0027 DCF77-Empfänger" package="WIREPAD_2.2/1.3" value="E" x="50.8" y="45.72" smashed="yes">
+<element name="PAD13" library="AS077_DCF77_Empfaenger" package="WIREPAD_2.2/1.3" value="E" x="50.8" y="45.72" smashed="yes">
 <attribute name="VALUE" x="50.8" y="46.32" size="1.5" layer="27" font="vector" ratio="12" align="center"/>
 </element>
-<element name="PAD16" library="0027 DCF77-Empfänger" package="WIREPAD_2.2/1.3" value="D" x="35.56" y="22.86" smashed="yes">
+<element name="PAD16" library="AS077_DCF77_Empfaenger" package="WIREPAD_2.2/1.3" value="D" x="35.56" y="22.86" smashed="yes">
 <attribute name="VALUE" x="33.655" y="26.035" size="1.5" layer="27" font="vector" ratio="12" align="center"/>
 </element>
-<element name="PAD18" library="0027 DCF77-Empfänger" package="WIREPAD_2.2/1.3" value="G" x="116.84" y="30.48" smashed="yes">
+<element name="PAD18" library="AS077_DCF77_Empfaenger" package="WIREPAD_2.2/1.3" value="G" x="116.84" y="30.48" smashed="yes">
 <attribute name="VALUE" x="116.84" y="31.08" size="1.5" layer="27" font="vector" ratio="12" align="center"/>
 </element>
-<element name="PAD17" library="0027 DCF77-Empfänger" package="WIREPAD_2.2/1.3" value="H" x="60.96" y="12.7" smashed="yes">
+<element name="PAD17" library="AS077_DCF77_Empfaenger" package="WIREPAD_2.2/1.3" value="H" x="60.96" y="12.7" smashed="yes">
 <attribute name="VALUE" x="59.055" y="13.97" size="1.5" layer="27" font="vector" ratio="12" align="center"/>
 </element>
-<element name="R18" library="0027 DCF77-Empfänger" package="RCL_0207/15" value="39k" x="22.86" y="50.8" smashed="yes" rot="R270">
+<element name="R18" library="AS077_DCF77_Empfaenger" package="RCL_0207/15" value="39k" x="22.86" y="50.8" smashed="yes" rot="R270">
 <attribute name="NAME" x="24.765" y="50.8" size="1.3" layer="25" font="vector" ratio="12" rot="R270" align="center"/>
 <attribute name="VALUE" x="22.86" y="50.8" size="1.5" layer="27" font="vector" ratio="12" rot="R270" align="center"/>
 </element>
-<element name="C15" library="0027 DCF77-Empfänger" package="RCL_C075-032X103" value="270n*" x="13.97" y="33.02" smashed="yes" rot="R180">
+<element name="C15" library="AS077_DCF77_Empfaenger" package="RCL_C075-032X103" value="270n*" x="13.97" y="33.02" smashed="yes" rot="R180">
 <attribute name="NAME" x="6.985" y="33.02" size="1.3" layer="25" font="vector" ratio="12" rot="R180" align="center"/>
 <attribute name="VALUE" x="13.97" y="36.195" size="1.5" layer="27" font="vector" ratio="12" rot="R180" align="center"/>
 </element>
-<element name="C14" library="0027 DCF77-Empfänger" package="RCL_C075-032X103" value="150n*" x="40.64" y="26.67" smashed="yes" rot="R90">
+<element name="C14" library="AS077_DCF77_Empfaenger" package="RCL_C075-032X103" value="150n*" x="40.64" y="26.67" smashed="yes" rot="R90">
 <attribute name="NAME" x="38.1" y="26.67" size="1.3" layer="25" font="vector" ratio="12" rot="R270" align="center"/>
 <attribute name="VALUE" x="38.1" y="26.67" size="1.5" layer="27" font="vector" ratio="12" rot="R90" align="center"/>
 </element>
-<element name="R19" library="0027 DCF77-Empfänger" package="RCL_0207/5V" value="100k" x="96.52" y="40.64" smashed="yes">
+<element name="R19" library="AS077_DCF77_Empfaenger" package="RCL_0207/5V" value="100k" x="96.52" y="40.64" smashed="yes">
 <attribute name="NAME" x="90.17" y="40.64" size="1.3" layer="25" font="vector" ratio="12" align="center"/>
 <attribute name="VALUE" x="90.17" y="40.64" size="1.5" layer="27" font="vector" ratio="12" align="center"/>
 </element>
-<element name="R21" library="0027 DCF77-Empfänger" package="RCL_0207/5V" value="56k" x="93.98" y="43.18" smashed="yes">
+<element name="R21" library="AS077_DCF77_Empfaenger" package="RCL_0207/5V" value="56k" x="93.98" y="43.18" smashed="yes">
 <attribute name="NAME" x="99.695" y="43.18" size="1.3" layer="25" font="vector" ratio="12" align="center"/>
 <attribute name="VALUE" x="94.615" y="45.085" size="1.5" layer="27" font="vector" ratio="12" align="center"/>
 </element>
-<element name="C16" library="0027 DCF77-Empfänger" package="RCL_C050-024X044" value="22n" x="99.06" y="35.56" smashed="yes" rot="R90">
+<element name="C16" library="AS077_DCF77_Empfaenger" package="RCL_C050-024X044" value="22n" x="99.06" y="35.56" smashed="yes" rot="R90">
 <attribute name="NAME" x="96.52" y="35.56" size="1.3" layer="25" font="vector" ratio="12" rot="R90" align="center"/>
 <attribute name="VALUE" x="96.52" y="35.56" size="1.5" layer="27" font="vector" ratio="12" rot="R270" align="center"/>
 </element>
-<element name="C17" library="0027 DCF77-Empfänger" package="RCL_C050-024X044" value="22n" x="91.44" y="35.56" smashed="yes" rot="R90">
+<element name="C17" library="AS077_DCF77_Empfaenger" package="RCL_C050-024X044" value="22n" x="91.44" y="35.56" smashed="yes" rot="R90">
 <attribute name="NAME" x="88.9" y="35.56" size="1.3" layer="25" font="vector" ratio="12" rot="R90" align="center"/>
 <attribute name="VALUE" x="88.9" y="35.56" size="1.5" layer="27" font="vector" ratio="12" rot="R90" align="center"/>
 </element>
-<element name="R20" library="0027 DCF77-Empfänger" package="RCL_0207/5V" value="1k" x="116.84" y="40.64" smashed="yes" rot="R270">
+<element name="R20" library="AS077_DCF77_Empfaenger" package="RCL_0207/5V" value="1k" x="116.84" y="40.64" smashed="yes" rot="R270">
 <attribute name="NAME" x="114.935" y="40.64" size="1.3" layer="25" font="vector" ratio="12" rot="R270" align="center"/>
 <attribute name="VALUE" x="114.935" y="40.64" size="1.5" layer="27" font="vector" ratio="12" rot="R270" align="center"/>
 </element>
-<element name="T5" library="0027 DCF77-Empfänger" package="TO92_2.54" value="BC549C" x="83.82" y="43.18" smashed="yes" rot="R270">
+<element name="T5" library="AS077_DCF77_Empfaenger" package="TO92_2.54" value="BC549C" x="83.82" y="43.18" smashed="yes" rot="R270">
 <attribute name="NAME" x="86.995" y="45.72" size="1.3" layer="25" font="vector" ratio="12" align="center"/>
 <attribute name="VALUE" x="83.82" y="47.625" size="1.5" layer="27" font="vector" ratio="12" align="center"/>
 </element>
-<element name="T6" library="0027 DCF77-Empfänger" package="TO92_2.54" value="BC549C" x="68.58" y="48.26" smashed="yes" rot="R270">
+<element name="T6" library="AS077_DCF77_Empfaenger" package="TO92_2.54" value="BC549C" x="68.58" y="48.26" smashed="yes" rot="R270">
 <attribute name="NAME" x="71.755" y="50.8" size="1.3" layer="25" font="vector" ratio="12" align="center"/>
 <attribute name="VALUE" x="67.31" y="45.085" size="1.5" layer="27" font="vector" ratio="12" rot="R270" align="center"/>
 </element>
-<element name="R17" library="0027 DCF77-Empfänger" package="RCL_0207/15" value="1M" x="40.64" y="43.18" smashed="yes" rot="R270">
+<element name="R17" library="AS077_DCF77_Empfaenger" package="RCL_0207/15" value="1M" x="40.64" y="43.18" smashed="yes" rot="R270">
 <attribute name="NAME" x="42.545" y="43.18" size="1.3" layer="25" font="vector" ratio="12" rot="R270" align="center"/>
 <attribute name="VALUE" x="40.64" y="43.18" size="1.5" layer="27" font="vector" ratio="12" rot="R270" align="center"/>
 </element>
-<element name="C20" library="0027 DCF77-Empfänger" package="RCL_C075-032X103" value="470n*" x="58.42" y="24.13" smashed="yes" rot="R90">
+<element name="C20" library="AS077_DCF77_Empfaenger" package="RCL_C075-032X103" value="470n*" x="58.42" y="24.13" smashed="yes" rot="R90">
 <attribute name="NAME" x="60.96" y="24.13" size="1.3" layer="25" font="vector" ratio="12" rot="R90" align="center"/>
 <attribute name="VALUE" x="60.96" y="24.13" size="1.5" layer="27" font="vector" ratio="12" rot="R90" align="center"/>
 </element>
-<element name="R22" library="0027 DCF77-Empfänger" package="RCL_0207/15" value="1M" x="58.42" y="43.18" smashed="yes" rot="R270">
+<element name="R22" library="AS077_DCF77_Empfaenger" package="RCL_0207/15" value="1M" x="58.42" y="43.18" smashed="yes" rot="R270">
 <attribute name="NAME" x="60.325" y="43.18" size="1.3" layer="25" font="vector" ratio="12" rot="R270" align="center"/>
 <attribute name="VALUE" x="58.42" y="43.18" size="1.5" layer="27" font="vector" ratio="12" rot="R270" align="center"/>
 </element>
-<element name="R23" library="0027 DCF77-Empfänger" package="RCL_0207/10" value="1k" x="68.58" y="27.94" smashed="yes" rot="R90">
+<element name="R23" library="AS077_DCF77_Empfaenger" package="RCL_0207/10" value="1k" x="68.58" y="27.94" smashed="yes" rot="R90">
 <attribute name="NAME" x="66.675" y="27.94" size="1.3" layer="25" font="vector" ratio="12" rot="R90" align="center"/>
 <attribute name="VALUE" x="68.58" y="27.94" size="1.5" layer="27" font="vector" ratio="12" rot="R90" align="center"/>
 </element>
-<element name="T7" library="0027 DCF77-Empfänger" package="TO92_5.08" value="BC559C" x="68.58" y="12.7" smashed="yes" rot="R90">
+<element name="T7" library="AS077_DCF77_Empfaenger" package="TO92_5.08" value="BC559C" x="68.58" y="12.7" smashed="yes" rot="R90">
 <attribute name="NAME" x="66.04" y="15.875" size="1.3" layer="25" font="vector" ratio="12" align="center"/>
 <attribute name="VALUE" x="64.77" y="12.7" size="1.5" layer="27" font="vector" ratio="12" rot="R270" align="center"/>
 </element>
-<element name="LED2" library="0027 DCF77-Empfänger" package="LED_LED5MM" value="rot" x="68.58" y="39.37" smashed="yes" rot="R270">
+<element name="LED2" library="AS077_DCF77_Empfaenger" package="LED_LED5MM" value="rot" x="68.58" y="39.37" smashed="yes" rot="R270">
 <attribute name="NAME" x="68.58" y="43.815" size="1.3" layer="25" font="vector" ratio="12" align="center"/>
 <attribute name="VALUE" x="73.025" y="36.195" size="1.5" layer="27" font="vector" ratio="12" align="center"/>
 </element>
-<element name="LED3" library="0027 DCF77-Empfänger" package="LED_LED5MM" value="grün" x="78.74" y="39.37" smashed="yes" rot="R270">
+<element name="LED3" library="AS077_DCF77_Empfaenger" package="LED_LED5MM" value="grün" x="78.74" y="39.37" smashed="yes" rot="R270">
 <attribute name="NAME" x="78.74" y="43.815" size="1.3" layer="25" font="vector" ratio="12" align="center"/>
 <attribute name="VALUE" x="84.455" y="36.83" size="1.5" layer="27" font="vector" ratio="12" align="center"/>
 </element>
-<element name="PAD8" library="0027 DCF77-Empfänger" package="WIREPAD_2.2/1.3" value="C" x="40.64" y="12.7" smashed="yes">
+<element name="PAD8" library="AS077_DCF77_Empfaenger" package="WIREPAD_2.2/1.3" value="C" x="40.64" y="12.7" smashed="yes">
 <attribute name="VALUE" x="40.005" y="14.605" size="1.5" layer="27" font="vector" ratio="12" align="center"/>
 </element>
-<element name="C19" library="0027 DCF77-Empfänger" package="RCL_C050-024X044" value="100n" x="50.8" y="35.56" smashed="yes">
+<element name="C19" library="AS077_DCF77_Empfaenger" package="RCL_C050-024X044" value="100n" x="50.8" y="35.56" smashed="yes">
 <attribute name="NAME" x="50.8" y="38.1" size="1.3" layer="25" font="vector" ratio="12" align="center"/>
 <attribute name="VALUE" x="50.8" y="38.1" size="1.5" layer="27" font="vector" ratio="12" align="center"/>
 </element>
-<element name="C3" library="0027 DCF77-Empfänger" package="RCL_E5-10,5" value="470u" x="50.8" y="68.58" smashed="yes" rot="R90">
+<element name="C3" library="AS077_DCF77_Empfaenger" package="RCL_E5-10,5" value="470u" x="50.8" y="68.58" smashed="yes" rot="R90">
 <attribute name="NAME" x="50.8" y="74.93" size="1.3" layer="25" font="vector" ratio="12" rot="R180" align="center"/>
 <attribute name="VALUE" x="53.975" y="74.295" size="1.5" layer="27" font="vector" ratio="12" rot="R180" align="center"/>
 </element>
-<element name="C18" library="0027 DCF77-Empfänger" package="RCL_E5-10,5" value="470u" x="12.7" y="43.18" smashed="yes" rot="R180">
+<element name="C18" library="AS077_DCF77_Empfaenger" package="RCL_E5-10,5" value="470u" x="12.7" y="43.18" smashed="yes" rot="R180">
 <attribute name="NAME" x="7.62" y="48.26" size="1.3" layer="25" font="vector" ratio="12" rot="R180" align="center"/>
 <attribute name="VALUE" x="6.985" y="48.26" size="1.5" layer="27" font="vector" ratio="12" rot="R180" align="center"/>
 </element>
-<element name="PAD11" library="0027 DCF77-Empfänger" package="WIREPAD_2.2/1.3" value="BAT+" x="116.84" y="50.8" smashed="yes">
+<element name="PAD11" library="AS077_DCF77_Empfaenger" package="WIREPAD_2.2/1.3" value="BAT+" x="116.84" y="50.8" smashed="yes">
 <attribute name="VALUE" x="116.84" y="53.34" size="1.5" layer="27" font="vector" ratio="12" align="center"/>
 </element>
-<element name="PAD14" library="0027 DCF77-Empfänger" package="WIREPAD_2.2/1.3" value="BAT-" x="121.92" y="33.02" smashed="yes">
+<element name="PAD14" library="AS077_DCF77_Empfaenger" package="WIREPAD_2.2/1.3" value="BAT-" x="121.92" y="33.02" smashed="yes">
 <attribute name="VALUE" x="121.92" y="34.02" size="1.5" layer="27" font="vector" ratio="12" align="center"/>
 </element>
-<element name="PAD10" library="0027 DCF77-Empfänger" package="WIREPAD_2.2/1.3" value="BUZ+" x="121.92" y="43.18" smashed="yes">
+<element name="PAD10" library="AS077_DCF77_Empfaenger" package="WIREPAD_2.2/1.3" value="BUZ+" x="121.92" y="43.18" smashed="yes">
 <attribute name="VALUE" x="121.92" y="44.18" size="1.5" layer="27" font="vector" ratio="12" align="center"/>
 </element>
-<element name="PAD9" library="0027 DCF77-Empfänger" package="WIREPAD_2.2/1.3" value="BUZ-" x="121.92" y="38.1" smashed="yes">
+<element name="PAD9" library="AS077_DCF77_Empfaenger" package="WIREPAD_2.2/1.3" value="BUZ-" x="121.92" y="38.1" smashed="yes">
 <attribute name="VALUE" x="121.92" y="39.1" size="1.5" layer="27" font="vector" ratio="12" align="center"/>
 </element>
-<element name="PAD15" library="0027 DCF77-Empfänger" package="WIREPAD_2.2/1.3" value="GND" x="15.24" y="73.66" smashed="yes">
+<element name="PAD15" library="AS077_DCF77_Empfaenger" package="WIREPAD_2.2/1.3" value="GND" x="15.24" y="73.66" smashed="yes">
 <attribute name="VALUE" x="15.24" y="74.66" size="1.5" layer="27" font="vector" ratio="12" align="center"/>
 </element>
-<element name="U$1" library="0027 DCF77-Empfänger" package="9V_BLOCK" value="9V_SILKSCREEN" x="72.39" y="1.27" smashed="yes"/>
-<element name="Q1" library="0027 DCF77-Empfänger" package="34MM_PIEZO_SCREW" value="34MM_PIEZO" x="142.24" y="35.56" smashed="yes" rot="R45"/>
+<element name="U$1" library="AS077_DCF77_Empfaenger" package="9V_BLOCK" value="9V_SILKSCREEN" x="72.39" y="1.27" smashed="yes"/>
+<element name="Q1" library="AS077_DCF77_Empfaenger" package="34MM_PIEZO_SCREW" value="34MM_PIEZO" x="142.24" y="35.56" smashed="yes" rot="R45"/>
 </elements>
 <signals>
 <signal name="N$3">
