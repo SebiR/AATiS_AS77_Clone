@@ -7,7 +7,7 @@
 <setting keepoldvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -739,12 +739,13 @@ diameter 2.54 mm, horizontal, grid 10.16 mm</description>
 <text x="-2.54" y="1.905" size="1.778" layer="95">&gt;NAME</text>
 <text x="-2.54" y="-2.54" size="1.778" layer="96">&gt;VALUE</text>
 </symbol>
-<symbol name="9V_BLOCK">
-<wire x1="0" y1="0" x2="0" y2="10.16" width="0.3048" layer="94"/>
-<wire x1="0" y1="10.16" x2="20.32" y2="10.16" width="0.3048" layer="94"/>
-<wire x1="20.32" y1="10.16" x2="20.32" y2="0" width="0.3048" layer="94"/>
-<wire x1="20.32" y1="0" x2="0" y2="0" width="0.3048" layer="94"/>
-<text x="10.16" y="5.08" size="2.1844" layer="94" font="vector" ratio="12" align="center">9V Block</text>
+<symbol name="BATTERY">
+<wire x1="-0.635" y1="0.635" x2="-0.635" y2="0" width="0.4064" layer="94"/>
+<wire x1="-5.08" y1="0" x2="-0.635" y2="0" width="0.1524" layer="94"/>
+<wire x1="-0.635" y1="0" x2="-0.635" y2="-0.635" width="0.4064" layer="94"/>
+<wire x1="0.635" y1="2.54" x2="0.635" y2="0" width="0.4064" layer="94"/>
+<wire x1="0.635" y1="0" x2="5.08" y2="0" width="0.1524" layer="94"/>
+<wire x1="0.635" y1="0" x2="0.635" y2="-2.54" width="0.4064" layer="94"/>
 </symbol>
 <symbol name="Q1">
 <wire x1="1.016" y1="0" x2="5.08" y2="0" width="0.1524" layer="94"/>
@@ -1182,7 +1183,7 @@ germanium</description>
 </deviceset>
 <deviceset name="9V_SILKSCREEN">
 <gates>
-<gate name="G$1" symbol="9V_BLOCK" x="0" y="0"/>
+<gate name="G$1" symbol="BATTERY" x="0" y="0"/>
 </gates>
 <devices>
 <device name="" package="9V_BLOCK">
@@ -1782,10 +1783,10 @@ Piezo: RMP-34W</text>
 <attribute name="VALUE" x="185.42" y="218.44" size="1.778" layer="96"/>
 </instance>
 <instance part="PAD11" gate="1" x="43.18" y="76.2" smashed="yes">
-<attribute name="VALUE" x="42.037" y="72.898" size="1.778" layer="96"/>
+<attribute name="VALUE" x="41.783" y="76.962" size="1.778" layer="96" rot="R180"/>
 </instance>
 <instance part="PAD14" gate="1" x="43.18" y="63.5" smashed="yes">
-<attribute name="VALUE" x="42.037" y="60.198" size="1.778" layer="96"/>
+<attribute name="VALUE" x="41.783" y="64.262" size="1.778" layer="96" rot="R180"/>
 </instance>
 <instance part="P+1" gate="VCC" x="71.12" y="81.28" smashed="yes">
 <attribute name="VALUE" x="68.58" y="78.74" size="1.778" layer="96" rot="R90"/>
@@ -1813,7 +1814,7 @@ Piezo: RMP-34W</text>
 <attribute name="LAST_DATE_TIME" x="344.17" y="10.16" size="2.286" layer="94"/>
 <attribute name="SHEET" x="357.505" y="5.08" size="2.54" layer="94"/>
 </instance>
-<instance part="U$1" gate="G$1" x="17.78" y="63.5" smashed="yes"/>
+<instance part="U$1" gate="G$1" x="43.18" y="69.85" smashed="yes" rot="R90"/>
 <instance part="Q1" gate="G$1" x="312.42" y="114.3" smashed="yes" rot="R90">
 <attribute name="NAME" x="310.134" y="111.76" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="316.23" y="111.76" size="1.778" layer="96" rot="R90"/>
