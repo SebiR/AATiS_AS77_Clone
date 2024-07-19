@@ -11,7 +11,7 @@ This is a really great project for beginners to learn soldering and learn someth
 
 <img src="./Documentation/AS077_DCF77_Empfaenger_PCB_Top.png" width="600">
 
-<img src="./Documentation/AS077_DCF77_Empfaenger_PCB_Top_Bot.png" width="600">
+<img src="./Documentation/AS077_DCF77_Empfaenger_PCB_Bot.png" width="600">
 
 ## Description
 

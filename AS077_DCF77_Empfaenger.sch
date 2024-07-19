@@ -414,30 +414,11 @@ diameter 2.54 mm, horizontal, grid 10.16 mm</description>
 <text x="2.5001" y="0" size="0.02" layer="27">&gt;VALUE</text>
 </package>
 <package name="9V_BLOCK">
-<wire x1="0" y1="0" x2="46.5" y2="0" width="0.5" layer="21"/>
-<wire x1="46.5" y1="0" x2="46.5" y2="5" width="0.5" layer="21"/>
-<wire x1="46.5" y1="5" x2="46.5" y2="10" width="0.5" layer="21"/>
-<wire x1="46.5" y1="10" x2="46.5" y2="16.5" width="0.5" layer="21"/>
-<wire x1="46.5" y1="16.5" x2="46.5" y2="21.5" width="0.5" layer="21"/>
-<wire x1="46.5" y1="21.5" x2="46.5" y2="26.5" width="0.5" layer="21"/>
-<wire x1="46.5" y1="26.5" x2="0" y2="26.5" width="0.5" layer="21"/>
+<wire x1="0" y1="0" x2="48.5" y2="0" width="0.5" layer="21"/>
+<wire x1="48.5" y1="0" x2="48.5" y2="26.5" width="0.5" layer="21"/>
+<wire x1="48.5" y1="26.5" x2="0" y2="26.5" width="0.5" layer="21"/>
 <wire x1="0" y1="26.5" x2="0" y2="0" width="0.5" layer="21"/>
-<wire x1="46.5" y1="5" x2="48.5" y2="5" width="0.5" layer="21"/>
-<wire x1="48.5" y1="10" x2="46.5" y2="10" width="0.5" layer="21"/>
-<wire x1="46.5" y1="16.5" x2="48.5" y2="16.5" width="0.5" layer="21"/>
-<wire x1="48.5" y1="21.5" x2="46.5" y2="21.5" width="0.5" layer="21"/>
-<wire x1="48.5" y1="16.5" x2="48.5" y2="25.5" width="0.5" layer="21"/>
-<wire x1="48.5" y1="25.5" x2="49.5" y2="26.5" width="0.5" layer="21" curve="-90"/>
-<wire x1="49.5" y1="26.5" x2="50.5" y2="26.5" width="0.5" layer="21"/>
-<wire x1="50.5" y1="26.5" x2="51.5" y2="25.5" width="0.5" layer="21" curve="-90"/>
-<wire x1="51.5" y1="25.5" x2="51.5" y2="1" width="0.5" layer="21"/>
-<wire x1="51.5" y1="1" x2="50.5" y2="0" width="0.5" layer="21" curve="-90"/>
-<wire x1="50.5" y1="0" x2="49.5" y2="0" width="0.5" layer="21"/>
-<wire x1="49.5" y1="0" x2="48.5" y2="1" width="0.5" layer="21" curve="-90"/>
-<wire x1="48.5" y1="1" x2="48.5" y2="5" width="0.5" layer="21"/>
-<wire x1="48.5" y1="5" x2="48.5" y2="10" width="0.5" layer="21"/>
-<wire x1="48.5" y1="10" x2="48.5" y2="16.5" width="0.5" layer="21"/>
-<text x="22" y="13.5" size="3" layer="21" font="vector" ratio="12" align="center">9V-Batterie</text>
+<text x="24" y="14" size="3" layer="21" font="vector" ratio="12" align="center">9V-Batterie</text>
 </package>
 <package name="TO92_2.54">
 <description>&lt;b&gt;TO-92&lt;/b&gt;</description>
