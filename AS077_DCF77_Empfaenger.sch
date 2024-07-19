@@ -7,7 +7,7 @@
 <setting keepoldvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -1347,6 +1347,7 @@ DIN A3, landscape with location and doc. field</description>
 <part name="FRAME1" library="AS077_DCF77_Empfaenger" deviceset="A3L-LOC" device=""/>
 <part name="U$1" library="AS077_DCF77_Empfaenger" deviceset="9V_SILKSCREEN" device=""/>
 <part name="Q1" library="AS077_DCF77_Empfaenger" deviceset="34MM_PIEZO" device=""/>
+<part name="GND15" library="AS077_DCF77_Empfaenger" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -1364,11 +1365,11 @@ DIN A3, landscape with location and doc. field</description>
 <wire x1="66.04" y1="170.18" x2="71.12" y2="170.18" width="0.1524" layer="97"/>
 <text x="231.14" y="162.56" size="1.778" layer="97">angeschlossen werden soll</text>
 <text x="231.14" y="165.1" size="1.778" layer="97">Nur erforderlich, falls ein Computer</text>
-<text x="68.58" y="160.02" size="1.778" layer="97">Ferritstab l=10cm  d=10mm</text>
-<text x="68.58" y="157.48" size="1.778" layer="97">etwa 220 Wdg. Kupferlackdraht</text>
-<text x="68.58" y="154.94" size="1.778" layer="97">Durchmesser 0.3mm</text>
+<text x="68.58" y="162.56" size="1.778" layer="97">Ferritstab l=10cm  d=10mm</text>
+<text x="68.58" y="160.02" size="1.778" layer="97">etwa 220 Wdg. Kupferlackdraht</text>
+<text x="68.58" y="157.48" size="1.778" layer="97">Durchmesser 0.3mm</text>
 <text x="231.14" y="228.6" size="1.778" layer="97">Drahtbrücke bei 5V</text>
-<text x="30.48" y="35.56" size="2.54" layer="91">Ersatz AA112: AA143
+<text x="7.62" y="7.62" size="2.54" layer="91">Ersatz AA112: AA143
 Piezo: RMP-34W</text>
 <text x="154.94" y="116.84" size="2.54" layer="91" align="center">x</text>
 <text x="218.44" y="218.44" size="2.54" layer="91" align="center">x</text>
@@ -1376,6 +1377,17 @@ Piezo: RMP-34W</text>
 <text x="325.12" y="73.66" size="2.54" layer="91" align="center">"1"</text>
 <text x="96.52" y="40.64" size="2.54" layer="97">*  MKT (MKH) Kondensatoren</text>
 <text x="312.42" y="58.42" size="2.54" layer="97">low current LEDs!</text>
+<wire x1="292.1" y1="116.205" x2="292.1" y2="119.38" width="0.1524" layer="94"/>
+<wire x1="292.1" y1="114.935" x2="292.1" y2="111.76" width="0.1524" layer="94"/>
+<wire x1="290.83" y1="116.205" x2="293.37" y2="116.205" width="0.3048" layer="94"/>
+<wire x1="290.83" y1="114.935" x2="293.37" y2="114.935" width="0.3048" layer="94"/>
+<text x="294.64" y="114.3" size="1.27" layer="94">22n
+unter der
+Platine</text>
+<text x="139.7" y="149.86" size="1.4224" layer="94" rot="R180">evtl. abgleichen</text>
+<wire x1="137.16" y1="147.32" x2="137.16" y2="144.78" width="0.3048" layer="94"/>
+<wire x1="137.16" y1="144.78" x2="136.525" y2="146.05" width="0.3048" layer="94"/>
+<wire x1="137.16" y1="144.78" x2="137.795" y2="146.05" width="0.3048" layer="94"/>
 </plain>
 <instances>
 <instance part="IC1" gate="A" x="218.44" y="208.28" smashed="yes">
@@ -1587,13 +1599,13 @@ Piezo: RMP-34W</text>
 <attribute name="NAME" x="223.52" y="121.285" size="1.778" layer="95" rot="MR180"/>
 <attribute name="VALUE" x="223.52" y="129.54" size="1.778" layer="96" rot="MR180"/>
 </instance>
-<instance part="IC4" gate="C" x="269.24" y="109.22" smashed="yes" rot="MR180">
-<attribute name="NAME" x="271.78" y="106.045" size="1.778" layer="95" rot="MR180"/>
-<attribute name="VALUE" x="271.78" y="114.3" size="1.778" layer="96" rot="MR180"/>
+<instance part="IC4" gate="C" x="266.7" y="119.38" smashed="yes" rot="MR180">
+<attribute name="NAME" x="269.24" y="116.205" size="1.778" layer="95" rot="MR180"/>
+<attribute name="VALUE" x="269.24" y="124.46" size="1.778" layer="96" rot="MR180"/>
 </instance>
-<instance part="IC4" gate="D" x="246.38" y="111.76" smashed="yes">
-<attribute name="NAME" x="248.92" y="114.935" size="1.778" layer="95"/>
-<attribute name="VALUE" x="248.92" y="106.68" size="1.778" layer="96"/>
+<instance part="IC4" gate="D" x="246.38" y="121.92" smashed="yes">
+<attribute name="NAME" x="248.92" y="125.095" size="1.778" layer="95"/>
+<attribute name="VALUE" x="248.92" y="116.84" size="1.778" layer="96"/>
 </instance>
 <instance part="P+2" gate="VCC" x="81.28" y="137.16" smashed="yes">
 <attribute name="VALUE" x="78.74" y="134.62" size="1.778" layer="96" rot="R90"/>
@@ -1616,8 +1628,8 @@ Piezo: RMP-34W</text>
 <instance part="GND5" gate="1" x="129.54" y="50.8" smashed="yes">
 <attribute name="VALUE" x="127" y="48.26" size="1.778" layer="96"/>
 </instance>
-<instance part="GND6" gate="1" x="203.2" y="58.42" smashed="yes" rot="R270">
-<attribute name="VALUE" x="200.66" y="60.96" size="1.778" layer="96" rot="R270"/>
+<instance part="GND6" gate="1" x="200.66" y="53.34" smashed="yes">
+<attribute name="VALUE" x="198.12" y="50.8" size="1.778" layer="96"/>
 </instance>
 <instance part="IC2" gate="D" x="175.26" y="119.38" smashed="yes" rot="MR180">
 <attribute name="NAME" x="177.8" y="116.205" size="1.778" layer="95" rot="MR180"/>
@@ -1684,9 +1696,9 @@ Piezo: RMP-34W</text>
 <instance part="GND7" gate="1" x="198.12" y="96.52" smashed="yes">
 <attribute name="VALUE" x="195.58" y="93.98" size="1.778" layer="96"/>
 </instance>
-<instance part="R20" gate="G$1" x="284.48" y="109.22" smashed="yes" rot="R180">
-<attribute name="NAME" x="288.29" y="107.7214" size="1.778" layer="95" rot="R180"/>
-<attribute name="VALUE" x="288.29" y="112.522" size="1.778" layer="96" rot="R180"/>
+<instance part="R20" gate="G$1" x="281.94" y="119.38" smashed="yes" rot="R180">
+<attribute name="NAME" x="285.75" y="117.8814" size="1.778" layer="95" rot="R180"/>
+<attribute name="VALUE" x="285.75" y="122.682" size="1.778" layer="96" rot="R180"/>
 </instance>
 <instance part="T5" gate="G$1" x="325.12" y="96.52" smashed="yes">
 <attribute name="NAME" x="314.96" y="104.14" size="1.778" layer="95"/>
@@ -1703,8 +1715,8 @@ Piezo: RMP-34W</text>
 <instance part="P+10" gate="VCC" x="144.78" y="144.78" smashed="yes" rot="MR0">
 <attribute name="VALUE" x="147.32" y="142.24" size="1.778" layer="96" rot="MR90"/>
 </instance>
-<instance part="GND8" gate="1" x="109.22" y="137.16" smashed="yes" rot="R270">
-<attribute name="VALUE" x="106.68" y="139.7" size="1.778" layer="96" rot="R270"/>
+<instance part="GND8" gate="1" x="109.22" y="132.08" smashed="yes">
+<attribute name="VALUE" x="106.68" y="129.54" size="1.778" layer="96"/>
 </instance>
 <instance part="C20" gate="G$1" x="213.36" y="58.42" smashed="yes" rot="R90">
 <attribute name="NAME" x="213.36" y="63.5" size="1.778" layer="95"/>
@@ -1753,9 +1765,9 @@ Piezo: RMP-34W</text>
 <attribute name="NAME" x="189.103" y="229.0826" size="1.778" layer="95"/>
 <attribute name="VALUE" x="189.103" y="224.0026" size="1.778" layer="96"/>
 </instance>
-<instance part="C18" gate="G$1" x="71.12" y="71.12" smashed="yes">
-<attribute name="NAME" x="72.263" y="71.6026" size="1.778" layer="95"/>
-<attribute name="VALUE" x="72.263" y="66.5226" size="1.778" layer="96"/>
+<instance part="C18" gate="G$1" x="50.8" y="71.12" smashed="yes">
+<attribute name="NAME" x="51.943" y="71.6026" size="1.778" layer="95"/>
+<attribute name="VALUE" x="51.943" y="66.5226" size="1.778" layer="96"/>
 </instance>
 <instance part="GND12" gate="1" x="187.96" y="220.98" smashed="yes">
 <attribute name="VALUE" x="185.42" y="218.44" size="1.778" layer="96"/>
@@ -1766,36 +1778,34 @@ Piezo: RMP-34W</text>
 <instance part="PAD14" gate="1" x="43.18" y="63.5" smashed="yes">
 <attribute name="VALUE" x="41.783" y="64.262" size="1.778" layer="96" rot="R180"/>
 </instance>
-<instance part="P+1" gate="VCC" x="71.12" y="81.28" smashed="yes">
-<attribute name="VALUE" x="68.58" y="78.74" size="1.778" layer="96" rot="R90"/>
+<instance part="P+1" gate="VCC" x="50.8" y="81.28" smashed="yes">
+<attribute name="VALUE" x="48.26" y="78.74" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="GND13" gate="1" x="71.12" y="58.42" smashed="yes">
-<attribute name="VALUE" x="68.58" y="55.88" size="1.778" layer="96"/>
+<instance part="GND13" gate="1" x="50.8" y="58.42" smashed="yes">
+<attribute name="VALUE" x="48.26" y="55.88" size="1.778" layer="96"/>
 </instance>
-<instance part="PAD10" gate="1" x="304.8" y="109.22" smashed="yes" rot="R180">
-<attribute name="NAME" x="305.943" y="107.3658" size="1.778" layer="95" rot="R180"/>
-<attribute name="VALUE" x="305.943" y="112.522" size="1.778" layer="96" rot="R180"/>
+<instance part="PAD10" gate="1" x="312.42" y="124.46" smashed="yes" rot="R180">
+<attribute name="VALUE" x="313.563" y="127.762" size="1.778" layer="96" rot="R180"/>
 </instance>
-<instance part="PAD9" gate="1" x="304.8" y="119.38" smashed="yes" rot="R180">
-<attribute name="NAME" x="305.943" y="117.5258" size="1.778" layer="95" rot="R180"/>
-<attribute name="VALUE" x="305.943" y="122.682" size="1.778" layer="96" rot="R180"/>
+<instance part="PAD9" gate="1" x="312.42" y="114.3" smashed="yes" rot="R180">
+<attribute name="VALUE" x="313.563" y="112.522" size="1.778" layer="96" rot="R180"/>
 </instance>
-<instance part="GND14" gate="1" x="299.72" y="124.46" smashed="yes" rot="R180">
-<attribute name="VALUE" x="302.26" y="127" size="1.778" layer="96" rot="R180"/>
+<instance part="GND14" gate="1" x="304.8" y="109.22" smashed="yes">
+<attribute name="VALUE" x="302.26" y="106.68" size="1.778" layer="96"/>
 </instance>
-<instance part="PAD15" gate="1" x="83.82" y="63.5" smashed="yes" rot="R180">
-<attribute name="NAME" x="84.963" y="61.6458" size="1.778" layer="95" rot="R180"/>
-<attribute name="VALUE" x="84.963" y="66.802" size="1.778" layer="96" rot="R180"/>
+<instance part="PAD15" gate="1" x="63.5" y="63.5" smashed="yes" rot="R180">
+<attribute name="NAME" x="64.643" y="61.6458" size="1.778" layer="95" rot="R180"/>
+<attribute name="VALUE" x="64.643" y="66.802" size="1.778" layer="96" rot="R180"/>
 </instance>
 <instance part="FRAME1" gate="G$1" x="0" y="0" smashed="yes">
 <attribute name="DRAWING_NAME" x="344.17" y="15.24" size="2.54" layer="94"/>
 <attribute name="LAST_DATE_TIME" x="344.17" y="10.16" size="2.286" layer="94"/>
 <attribute name="SHEET" x="357.505" y="5.08" size="2.54" layer="94"/>
 </instance>
-<instance part="U$1" gate="G$1" x="43.18" y="69.85" smashed="yes" rot="R90"/>
-<instance part="Q1" gate="G$1" x="312.42" y="114.3" smashed="yes" rot="R90">
-<attribute name="NAME" x="310.134" y="111.76" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="316.23" y="111.76" size="1.778" layer="96" rot="R90"/>
+<instance part="U$1" gate="G$1" x="20.32" y="69.85" smashed="yes" rot="R90"/>
+<instance part="Q1" gate="G$1" x="312.42" y="119.38" smashed="yes" rot="R90"/>
+<instance part="GND15" gate="1" x="292.1" y="109.22" smashed="yes">
+<attribute name="VALUE" x="289.56" y="106.68" size="1.778" layer="96"/>
 </instance>
 </instances>
 <busses>
@@ -2191,17 +2201,19 @@ Piezo: RMP-34W</text>
 <wire x1="116.84" y1="134.62" x2="116.84" y2="137.16" width="0.1524" layer="91"/>
 <wire x1="116.84" y1="137.16" x2="119.38" y2="137.16" width="0.1524" layer="91"/>
 <pinref part="GND8" gate="1" pin="GND"/>
-<wire x1="111.76" y1="137.16" x2="116.84" y2="137.16" width="0.1524" layer="91"/>
 <junction x="116.84" y="137.16"/>
+<wire x1="116.84" y1="137.16" x2="109.22" y2="137.16" width="0.1524" layer="91"/>
+<wire x1="109.22" y1="137.16" x2="109.22" y2="134.62" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="GND6" gate="1" pin="GND"/>
 <pinref part="IC3" gate="B" pin="T1"/>
-<wire x1="205.74" y1="58.42" x2="208.28" y2="58.42" width="0.1524" layer="91"/>
 <wire x1="208.28" y1="58.42" x2="208.28" y2="55.88" width="0.1524" layer="91"/>
 <pinref part="C20" gate="G$1" pin="1"/>
 <wire x1="210.82" y1="58.42" x2="208.28" y2="58.42" width="0.1524" layer="91"/>
 <junction x="208.28" y="58.42"/>
+<wire x1="208.28" y1="58.42" x2="200.66" y2="58.42" width="0.1524" layer="91"/>
+<wire x1="200.66" y1="58.42" x2="200.66" y2="55.88" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="GND11" gate="1" pin="GND"/>
@@ -2225,19 +2237,19 @@ Piezo: RMP-34W</text>
 <segment>
 <pinref part="PAD14" gate="1" pin="P"/>
 <pinref part="GND13" gate="1" pin="GND"/>
-<wire x1="45.72" y1="63.5" x2="71.12" y2="63.5" width="0.1524" layer="91"/>
-<wire x1="71.12" y1="63.5" x2="71.12" y2="60.96" width="0.1524" layer="91"/>
+<wire x1="45.72" y1="63.5" x2="50.8" y2="63.5" width="0.1524" layer="91"/>
+<wire x1="50.8" y1="63.5" x2="50.8" y2="60.96" width="0.1524" layer="91"/>
 <pinref part="C18" gate="G$1" pin="-"/>
-<wire x1="71.12" y1="66.04" x2="71.12" y2="63.5" width="0.1524" layer="91"/>
-<junction x="71.12" y="63.5"/>
+<wire x1="50.8" y1="66.04" x2="50.8" y2="63.5" width="0.1524" layer="91"/>
+<junction x="50.8" y="63.5"/>
 <pinref part="PAD15" gate="1" pin="P"/>
-<wire x1="81.28" y1="63.5" x2="71.12" y2="63.5" width="0.1524" layer="91"/>
+<wire x1="60.96" y1="63.5" x2="50.8" y2="63.5" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="PAD9" gate="1" pin="P"/>
 <pinref part="GND14" gate="1" pin="GND"/>
-<wire x1="302.26" y1="119.38" x2="299.72" y2="119.38" width="0.1524" layer="91"/>
-<wire x1="299.72" y1="119.38" x2="299.72" y2="121.92" width="0.1524" layer="91"/>
+<wire x1="309.88" y1="114.3" x2="304.8" y2="114.3" width="0.1524" layer="91"/>
+<wire x1="304.8" y1="114.3" x2="304.8" y2="111.76" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$21" class="0">
@@ -2318,11 +2330,11 @@ Piezo: RMP-34W</text>
 <segment>
 <pinref part="PAD11" gate="1" pin="P"/>
 <pinref part="P+1" gate="VCC" pin="VCC"/>
-<wire x1="45.72" y1="76.2" x2="71.12" y2="76.2" width="0.1524" layer="91"/>
-<wire x1="71.12" y1="76.2" x2="71.12" y2="78.74" width="0.1524" layer="91"/>
+<wire x1="45.72" y1="76.2" x2="50.8" y2="76.2" width="0.1524" layer="91"/>
+<wire x1="50.8" y1="76.2" x2="50.8" y2="78.74" width="0.1524" layer="91"/>
 <pinref part="C18" gate="G$1" pin="+"/>
-<wire x1="71.12" y1="73.66" x2="71.12" y2="76.2" width="0.1524" layer="91"/>
-<junction x="71.12" y="76.2"/>
+<wire x1="50.8" y1="73.66" x2="50.8" y2="76.2" width="0.1524" layer="91"/>
+<junction x="50.8" y="76.2"/>
 </segment>
 </net>
 <net name="N$30" class="0">
@@ -2433,10 +2445,8 @@ Piezo: RMP-34W</text>
 <segment>
 <pinref part="IC4" gate="B" pin="O"/>
 <wire x1="228.6" y1="124.46" x2="231.14" y2="124.46" width="0.1524" layer="91"/>
-<wire x1="231.14" y1="124.46" x2="236.22" y2="124.46" width="0.1524" layer="91"/>
-<wire x1="236.22" y1="124.46" x2="236.22" y2="114.3" width="0.1524" layer="91"/>
+<wire x1="231.14" y1="124.46" x2="238.76" y2="124.46" width="0.1524" layer="91"/>
 <pinref part="IC4" gate="D" pin="I0"/>
-<wire x1="236.22" y1="114.3" x2="238.76" y2="114.3" width="0.1524" layer="91"/>
 <pinref part="R19" gate="G$1" pin="2"/>
 <wire x1="223.52" y1="114.3" x2="231.14" y2="114.3" width="0.1524" layer="91"/>
 <wire x1="231.14" y1="114.3" x2="231.14" y2="124.46" width="0.1524" layer="91"/>
@@ -2447,10 +2457,10 @@ Piezo: RMP-34W</text>
 <segment>
 <pinref part="IC4" gate="A" pin="O"/>
 <wire x1="228.6" y1="91.44" x2="231.14" y2="91.44" width="0.1524" layer="91"/>
-<wire x1="231.14" y1="91.44" x2="236.22" y2="91.44" width="0.1524" layer="91"/>
-<wire x1="236.22" y1="91.44" x2="236.22" y2="109.22" width="0.1524" layer="91"/>
+<wire x1="231.14" y1="91.44" x2="233.68" y2="91.44" width="0.1524" layer="91"/>
+<wire x1="233.68" y1="91.44" x2="233.68" y2="119.38" width="0.1524" layer="91"/>
 <pinref part="IC4" gate="D" pin="I1"/>
-<wire x1="236.22" y1="109.22" x2="238.76" y2="109.22" width="0.1524" layer="91"/>
+<wire x1="233.68" y1="119.38" x2="238.76" y2="119.38" width="0.1524" layer="91"/>
 <pinref part="R21" gate="G$1" pin="2"/>
 <wire x1="223.52" y1="101.6" x2="231.14" y2="101.6" width="0.1524" layer="91"/>
 <wire x1="231.14" y1="101.6" x2="231.14" y2="91.44" width="0.1524" layer="91"/>
@@ -2461,7 +2471,7 @@ Piezo: RMP-34W</text>
 <segment>
 <pinref part="IC4" gate="D" pin="O"/>
 <pinref part="IC4" gate="C" pin="I1"/>
-<wire x1="254" y1="111.76" x2="261.62" y2="111.76" width="0.1524" layer="91"/>
+<wire x1="254" y1="121.92" x2="259.08" y2="121.92" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$35" class="0">
@@ -2515,9 +2525,9 @@ Piezo: RMP-34W</text>
 <pinref part="IC3" gate="B" pin="Q"/>
 <wire x1="243.84" y1="38.1" x2="251.46" y2="38.1" width="0.1524" layer="91"/>
 <wire x1="251.46" y1="38.1" x2="256.54" y2="38.1" width="0.1524" layer="91"/>
-<wire x1="256.54" y1="38.1" x2="256.54" y2="106.68" width="0.1524" layer="91"/>
+<wire x1="256.54" y1="38.1" x2="256.54" y2="116.84" width="0.1524" layer="91"/>
 <pinref part="IC4" gate="C" pin="I0"/>
-<wire x1="256.54" y1="106.68" x2="261.62" y2="106.68" width="0.1524" layer="91"/>
+<wire x1="256.54" y1="116.84" x2="259.08" y2="116.84" width="0.1524" layer="91"/>
 <pinref part="PAD18" gate="1" pin="P"/>
 <wire x1="251.46" y1="35.56" x2="251.46" y2="38.1" width="0.1524" layer="91"/>
 <junction x="251.46" y="38.1"/>
@@ -2571,14 +2581,16 @@ Piezo: RMP-34W</text>
 <segment>
 <pinref part="IC4" gate="C" pin="O"/>
 <pinref part="R20" gate="G$1" pin="2"/>
-<wire x1="279.4" y1="109.22" x2="276.86" y2="109.22" width="0.1524" layer="91"/>
+<wire x1="276.86" y1="119.38" x2="274.32" y2="119.38" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$17" class="0">
 <segment>
 <pinref part="PAD10" gate="1" pin="P"/>
 <pinref part="R20" gate="G$1" pin="1"/>
-<wire x1="302.26" y1="109.22" x2="289.56" y2="109.22" width="0.1524" layer="91"/>
+<wire x1="309.88" y1="124.46" x2="292.1" y2="124.46" width="0.1524" layer="91"/>
+<wire x1="292.1" y1="124.46" x2="292.1" y2="119.38" width="0.1524" layer="91"/>
+<wire x1="292.1" y1="119.38" x2="287.02" y2="119.38" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$45" class="0">
@@ -2593,14 +2605,22 @@ Piezo: RMP-34W</text>
 <wire x1="218.44" y1="218.44" x2="218.44" y2="215.9" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$47" class="0">
+<net name="N$49" class="0">
 <segment>
-<wire x1="304.8" y1="119.38" x2="312.42" y2="119.38" width="0.1524" layer="91"/>
+<wire x1="20.32" y1="76.2" x2="25.4" y2="76.2" width="0.1524" layer="91"/>
+<wire x1="25.4" y1="76.2" x2="30.48" y2="78.74" width="0.1524" layer="91"/>
+<junction x="25.4" y="76.2"/>
 </segment>
 </net>
-<net name="N$48" class="0">
+<net name="N$50" class="0">
 <segment>
-<wire x1="304.8" y1="109.22" x2="312.42" y2="109.22" width="0.1524" layer="91"/>
+<wire x1="20.32" y1="63.5" x2="35.56" y2="63.5" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$51" class="0">
+<segment>
+<wire x1="30.48" y1="76.2" x2="35.56" y2="76.2" width="0.1524" layer="91"/>
+<junction x="30.48" y="76.2"/>
 </segment>
 </net>
 </nets>
