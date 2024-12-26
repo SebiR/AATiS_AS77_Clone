@@ -7,7 +7,7 @@
 <setting keepoldvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -1351,7 +1351,8 @@ DIN A3, landscape with location and doc. field</description>
 <text x="68.58" y="157.48" size="1.778" layer="97">Durchmesser 0.3mm</text>
 <text x="231.14" y="228.6" size="1.778" layer="97">Drahtbrücke bei 5V</text>
 <text x="7.62" y="7.62" size="2.54" layer="91">Ersatz AA112: AA143
-Piezo: RMP-34W</text>
+Piezo: RMP-34W
+Dreko: BFC280831659</text>
 <text x="154.94" y="116.84" size="2.54" layer="91" align="center">x</text>
 <text x="218.44" y="218.44" size="2.54" layer="91" align="center">x</text>
 <text x="302.26" y="73.66" size="2.54" layer="91" align="center">"0"</text>
