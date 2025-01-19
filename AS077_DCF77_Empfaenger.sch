@@ -385,7 +385,7 @@ diameter 2.54 mm, horizontal, grid 10.16 mm</description>
 </package>
 <package name="WIREPAD_2.2/1.3">
 <description>&lt;b&gt;THROUGH-HOLE PAD&lt;/b&gt;</description>
-<pad name="1" x="0" y="0" drill="1.3" diameter="2.2" shape="octagon"/>
+<pad name="1" x="0" y="0" drill="1.4" diameter="2.2" shape="octagon"/>
 <text x="-1.27" y="1.524" size="1.27" layer="25" ratio="10">&gt;NAME</text>
 <text x="0" y="1" size="0.0254" layer="27">&gt;VALUE</text>
 </package>
@@ -1737,7 +1737,7 @@ Platine</text>
 <attribute name="VALUE" x="279.4" y="238.76" size="1.778" layer="96" rot="R90"/>
 </instance>
 <instance part="PAD8" gate="1" x="160.02" y="124.46" smashed="yes" rot="R270">
-<attribute name="VALUE" x="156.718" y="125.603" size="1.778" layer="96" rot="R270"/>
+<attribute name="VALUE" x="161.417" y="126.238" size="1.778" layer="96"/>
 </instance>
 <instance part="C19" gate="G$1" x="114.3" y="66.04" smashed="yes" rot="R180">
 <attribute name="NAME" x="112.776" y="65.659" size="1.778" layer="95" rot="R180"/>
